@@ -2332,6 +2332,37 @@ h3.ra-ph{margin:14px 0 0;font-size:15px;}
 @media screen and (max-width:900px){.qz-grid{grid-template-columns:1fr;}.qz-top{flex-direction:column;align-items:flex-start;}}
 @media print{.qz-ctrl{display:none !important;}.qz-medal,.qz-dial{animation:none !important;}}
 @media (prefers-reduced-motion:reduce){.qz-medal,.qz-time,.qz-dial{animation:none !important;}}
+
+/* slide 6: license label lookup */
+.ll-wrap{margin-top:12px;}
+.ll-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:12.5px;color:var(--ink-soft);margin-bottom:7px;}
+.ll-h svg{color:var(--brand);align-self:center;}
+.ll-h > b{font-size:14.5px;color:var(--brand-deep);}
+.ll-tbl{width:100%;border-collapse:separate;border-spacing:0 5px;font-size:12px;line-height:1.4;margin-top:-5px;}
+.ll-tbl th{background:#003e7e;color:#fff;font-weight:600;text-align:start;padding:7px 12px;vertical-align:top;}
+.ll-tbl th:first-child{border-radius:8px 0 0 8px;}
+.ll-tbl th:last-child{border-radius:0 8px 8px 0;}
+.ll-tbl td{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:7px 12px;vertical-align:top;color:var(--ink);}
+.ll-tbl td:first-child{border-left:4px solid var(--c);border-radius:8px 0 0 8px;background:var(--surface-alt);width:22%;}
+.ll-tbl td:last-child{border-right:1px solid var(--line);border-radius:0 8px 8px 0;}
+.ll-tbl td b{display:block;color:var(--ink);}
+.ll-tbl td span{display:block;font-size:11.5px;color:var(--ink-faint);}
+.ll-tbl tr.ll-b{--c:#5b7a0a;}
+.ll-tbl tr.ll-p{--c:#1275bb;}
+
+.ap-ladder + .ll-wrap{margin-top:10px;}
+.ll-wrap + .ap-note{margin-top:8px;padding:8px 14px;}
+.ap-col{padding-top:9px;padding-bottom:10px;}
+.ap-uc{margin-top:6px;}
+
+.ap-ladder + .ll-wrap{margin-top:8px;}
+.ll-h{margin-bottom:4px;}
+.ll-tbl{border-spacing:0 4px;}
+.ll-tbl th{padding:6px 12px;}
+.ll-tbl td{padding:5px 12px;}
+.ll-tbl th:nth-child(1){width:19%;}.ll-tbl th:nth-child(2){width:31%;}.ll-tbl th:nth-child(3){width:33%;}.ll-tbl th:nth-child(4){width:17%;}.ll-tbl th{white-space:nowrap;}.ll-tbl td:first-child{width:auto;}
+.ap-uc{padding:5px 9px;}.ap-pay{margin:3px 0 5px;padding-bottom:6px;}
+.ll-wrap + .ap-note{margin-top:6px;}
 </style>
 </head>
 <body>
@@ -2601,8 +2632,13 @@ h3.ra-ph{margin:14px 0 0;font-size:15px;}
 <div class="subhead" id="m0-profiles"><span class="sx"><svg aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18"><circle cx="9" cy="8.5" r="3.2" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"/><circle cx="17" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.6"/><path d="M16.5 14.2c2.3.1 3.8 1.6 4.2 4.3" stroke="currentColor" stroke-linecap="round" stroke-width="1.6"/></svg></span> AI User Profiles — Basic, Intermediate &amp; Advanced AI User</div>
 <p class="m2-intro">Three user profiles, one ladder. Each step adds AI capability — and changes how it’s paid for: <b>included</b> → <b>per-user license (USL)</b> → <b>license plus usage-based billing (UBB)</b>.</p>
 <div class="ap-ladder"><div class="ap-col b"><div class="ap-k">Profile 1 · User</div><div class="ap-name">Basic AI User</div><div class="ap-lic">Copilot Chat (Basic)</div><div class="ap-pay"><b>Included</b> with your Microsoft 365 plan — no Copilot license</div><ul><li>Web-grounded chat with enterprise data protection</li><li>Reasons over the files you upload or attach</li><li>Create, and agents built with Agent Builder on web knowledge</li></ul><div class="ap-uc"><span>SPPU use cases</span><b>1a</b> · <b>1b</b> · <b>2a</b> · <b>3a</b> — attach your files by hand</div></div><div class="ap-arrow" aria-hidden="true">→</div><div class="ap-col i"><div class="ap-k">Profile 2 · User</div><div class="ap-name">Intermediate AI User</div><div class="ap-lic">Microsoft 365 Copilot (Premium)</div><div class="ap-pay"><b>USL</b> — a user subscription license, a fixed fee per user</div><ul><li>Everything in Basic, plus <b>Work IQ</b>: your mail, meetings, chats and files</li><li>Copilot inside Word, Excel, PowerPoint, OneNote and Teams</li><li>Researcher, Analyst, Notebooks and model choice</li></ul><div class="ap-uc"><span>SPPU use cases</span><b>1a</b> · <b>1b</b> · <b>2a</b> · <b>2b</b> · <b>3a–3c</b> — grounded in your own work</div></div><div class="ap-arrow" aria-hidden="true">→</div><div class="ap-col a"><div class="ap-k">Profile 3 · User</div><div class="ap-name">Advanced AI User</div><div class="ap-lic">Premium + Copilot Cowork</div><div class="ap-pay"><b>USL + UBB</b> — usage-based billing in Copilot Credits, capped by spending policies</div><ul><li>Everything in Premium, plus <b>Cowork</b>: plans, runs and delivers multi-step work across apps</li><li>Scheduled and event-triggered tasks</li><li>Stops for your approval before it sends or shares</li></ul><div class="ap-uc"><span>SPPU use cases</span><b>4</b> with Cowork — workspace data to a deck, automatically</div></div></div>
+<div class="ll-wrap"><div class="ll-h"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 12V4h8l9 9-8 8-9-9z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7.5" cy="8.5" r="1.4" fill="currentColor"/></svg><b>Which license label do I have?</b><span>Sign in at <b>copilot.cloud.microsoft</b> — the label under your name (also shown in Word, Excel, PowerPoint and OneNote) tells you where Copilot works for you.</span></div>
+<table class="ll-tbl"><thead><tr><th>Label under your name</th><th>Copilot Chat</th><th>Copilot in Word, Excel, PowerPoint &amp; OneNote</th><th>Cowork &amp; Code</th></tr></thead><tbody>
+<tr class="ll-b"><td><b>Copilot Chat (Basic)</b><span>no add-on license</span></td><td>Web data, files you upload, and the content you have open in Outlook and Teams</td><td>Standard access in some organizations — subject to service capacity</td><td>—</td></tr>
+<tr class="ll-p"><td><b>Microsoft Copilot (Premium)</b><span>add-on license (USL)</span></td><td>Web and work data, automatically through Work IQ</td><td>Full experience with priority access</td><td>With Copilot Credits (UBB)</td></tr>
+</tbody></table></div>
 <div class="note ap-note"><svg aria-hidden="true" class="n-ico" fill="none" height="22" viewBox="0 0 24 24" width="22"><circle cx="12" cy="12" r="9.2" stroke="currentColor" stroke-width="1.7"></circle><path d="M12 11v6M12 7.5v.01" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg><p><b>Tier people on validated work, never on seniority.</b> A director who only chats is a Basic AI User; an analyst who runs weekly multi-step Cowork tasks is an Advanced AI User. Beyond users, <b>Creators</b> (App and Agent Creators, Automation and Pro-Code Developers) and <b>Managers</b> (Agent and AI Platform Managers) build and govern on top of these three profiles. How the licenses stack: see the <a href="#xb-license-stack">Appendix</a>.</p></div>
-</div></div><div class="page-src"><span class="ps-k">Source</span><span class="ps-l"><a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-licensing" rel="noopener" target="_blank">Microsoft 365 Copilot licensing</a> — Microsoft Learn</span><span class="ps-l"><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/cowork-faq" rel="noopener" target="_blank">Copilot Cowork FAQ</a> — Microsoft Learn</span><span class="ps-n">Module 0 · 6 of 6</span><span class="ps-g">Slide 6</span></div></div></div></div>
+</div></div><div class="page-src"><span class="ps-k">Source</span><span class="ps-l"><a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-licensing" rel="noopener" target="_blank">Microsoft 365 Copilot licensing</a> — Microsoft Learn</span><span class="ps-l"><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview" rel="noopener" target="_blank">Microsoft 365 Copilot overview</a> — Microsoft Learn</span><span class="ps-l"><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/cowork-faq" rel="noopener" target="_blank">Copilot Cowork FAQ</a> — Microsoft Learn</span><span class="ps-n">Module 0 · 6 of 6</span><span class="ps-g">Slide 6</span></div></div></div></div>
 </section>
 
   <!-- ============ PART 1 ============ -->
