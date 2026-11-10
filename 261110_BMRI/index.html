@@ -986,7 +986,14 @@ i[data-seq]{display:none!important}
   function $$(r,s){ return [].slice.call(r.querySelectorAll(s)); }
   function init(d){
     d.classList.add('js-ready');
-    d._items = $$(d,'[data-seq]');
+    /* each typed prompt plays just before the bubble that sends it */
+    var rest = $$(d,'[data-seq]').filter(function(e){ return !e.classList.contains('dm-type'); });
+    $$(d,'.dm-type[data-seq]').forEach(function(t){
+      var k = -1;
+      for (var i = 0; i < rest.length; i++) { if (rest[i].dataset.clear && rest[i].dataset.step === t.dataset.step && !rest[i].dmTyped) { k = i; break; } }
+      if (k < 0) rest.push(t); else { rest[k].dmTyped = true; rest.splice(k, 0, t); }
+    });
+    d._items = rest;
     d._btn = d.querySelector('.dm-run');
     d._lbl0 = d._btn.querySelector('.dm-lbl').textContent;
     $$(d,'[data-alt]').forEach(function(e){ e.dataset.orig = e.textContent; });
