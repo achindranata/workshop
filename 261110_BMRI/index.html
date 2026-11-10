@@ -484,11 +484,14 @@ i[data-seq]{display:none!important}
 @media (prefers-color-scheme: dark){.nv-demo .nv-slide:hover{background:#4a3f12;color:#fff}}
 /* wide screens: pane always open beside the slides */
 @media (min-width:1100px){
-  .nav{transform:none!important;top:48px;box-shadow:none;border-inline-end:1px solid var(--line);z-index:50}
-  .nav-close,.nav-toggle{display:none}
+  .nav{transform:none;top:48px;box-shadow:none;border-inline-end:1px solid var(--line);z-index:50}
   .nav-backdrop{display:none!important}
-  body{padding-inline-start:var(--nav-w)}
-  .topbar{margin-inline-start:calc(-1 * var(--nav-w))}
+  body{padding-inline-start:var(--nav-w);transition:padding .22s ease}
+  .topbar{margin-inline-start:calc(-1 * var(--nav-w));transition:margin .22s ease}
+  html.nav-collapsed .nav{transform:translateX(-102%)}
+  html.nav-collapsed body{padding-inline-start:0}
+  html.nav-collapsed .topbar{margin-inline-start:0}
+  .nav-toggle[aria-expanded="true"]{background:var(--navy);color:#fff;border-color:transparent}
 }
 @media print{body{padding-inline-start:0!important}.nav{display:none!important}.topbar{margin:0!important}}
 
@@ -823,10 +826,23 @@ i[data-seq]{display:none!important}
     toggleBtn.setAttribute('aria-expanded', 'false');
     if (returnFocus) toggleBtn.focus();
   }
+  /* wide screens: the pane is docked and can be collapsed / expanded */
+  function setDocked(open){
+    root.classList.toggle('nav-collapsed', !open);
+    toggleBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    try { localStorage.setItem('mdrNavOpen', open ? '1' : '0'); } catch (err) {}
+    setTimeout(function(){ scaleDeck(); fitSlides(); curIdx = -1; mark(); }, 260);
+  }
+  try { if (localStorage.getItem('mdrNavOpen') === '0') root.classList.add('nav-collapsed'); } catch (err) {}
+  if (!drawerMQ.matches) toggleBtn.setAttribute('aria-expanded', root.classList.contains('nav-collapsed') ? 'false' : 'true');
   toggleBtn.addEventListener('click', function(){
+    if (!drawerMQ.matches) { setDocked(root.classList.contains('nav-collapsed')); return; }
     if (nav.classList.contains('is-open')) closeDrawer(true); else openDrawer();
   });
-  closeBtn.addEventListener('click', function(){ closeDrawer(true); });
+  closeBtn.addEventListener('click', function(){
+    if (!drawerMQ.matches) { setDocked(false); toggleBtn.focus(); return; }
+    closeDrawer(true);
+  });
   backdrop.addEventListener('click', function(){ closeDrawer(false); });
   document.addEventListener('keydown', function(e){
     if (e.key === 'Escape' && nav.classList.contains('is-open')) { closeDrawer(true); return; }
