@@ -1,4 +1,4 @@
-# Garasi
+# Garage
 
 Interactive 3D car parts and owner maintenance guides. Click any part of a 3D car to see what it does, how to maintain it and which warning signs to watch for.
 
