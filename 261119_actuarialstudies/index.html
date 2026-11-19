@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="MSRAI_Label_dbd012e0-e600-4c3e-83b7-7d3141c15efc_AI_Disclosure" content="Made with AI">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TA3 Matematika Aktuaria · Q13 &amp; Q14 · Actuarial Studies</title>
+<title>TA3 Matematika Aktuaria · Answer Key &amp; Solutions · Actuarial Studies</title>
 <style>
 :root{
   --ink:#1b1b1b; --ink-soft:#555; --ink-faint:#8a8a8a; --line:#d4d4d4; --line-soft:#e7e7e7;
@@ -41,7 +41,7 @@ a.tn-c{display:inline-flex;align-items:center;justify-content:center;min-width:2
 a.tn-c:hover{border-color:var(--ink-soft);color:var(--ink)}
 a.tn-c.on{background:var(--ink);border-color:var(--ink);color:#fff}
 .tn-arrows{display:flex;align-items:center;gap:6px;white-space:nowrap}
-#tn-pos{font-size:12px;color:var(--ink-soft);min-width:84px;text-align:center;font-variant-numeric:tabular-nums}
+#tn-pos{font-size:12px;color:var(--ink-soft);min-width:128px;text-align:center;font-variant-numeric:tabular-nums}
 .tn-arr{width:28px;height:26px;border:1px solid var(--line);background:#fff;border-radius:4px;cursor:pointer;font-size:14px;line-height:1;color:var(--ink)}
 .tn-arr:disabled{opacity:.35;cursor:default}
 
@@ -137,377 +137,555 @@ body.present .page.cur .page-frame{box-shadow:0 0 0 1px var(--line)}
   .topnav{display:none}
   main{padding:0}
   .page,#page-1{border:none;margin:0;padding:0;break-after:page;page-break-after:always}
-  #page-10{break-after:auto;page-break-after:auto}
+  #page-31{break-after:auto;page-break-after:auto}
   .page-frame{width:210mm!important;height:296.5mm!important;overflow:hidden}
   .page-canvas{transform:none!important;width:210mm;height:296.5mm}
   .hl,.cell.tint,table.t th,table.t tr.res td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
 @media (max-width:760px){.tn-t{display:none}}
+
+.eq.sm{font-size:15px}
+.src{font-size:12.5px;line-height:1.5}
+.src .opts{font-size:12.5px;margin-top:6px}
+.optcol{margin:6px 0 0;padding-left:0;list-style:none;font-size:12.5px}
+.optcol li{margin:1px 0}
+.optcol b{display:inline-block;width:18px;font-weight:600}
+.optcol .pick{font-weight:700;color:var(--ok)}
+table.mini{border-collapse:separate;border-spacing:0;margin:6px 0 6px;font-size:12px;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff}
+table.mini th,table.mini td{padding:3px 10px;border-bottom:1px solid var(--line-soft);text-align:center}
+table.mini tr:last-child td{border-bottom:none}
+table.mini th{background:var(--tint);font-weight:600;color:var(--ink-soft)}
+table.mini td:first-child{text-align:left}
+.en{font-size:13.5px;color:var(--ink-soft);margin:0 0 4px}
+h3{font-size:14.5px;margin:14px 0 4px}
+.eq{margin:6px 0 8px}
+.ansrow{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ansrow .big{font-size:20px}
+.letter{display:inline-block;min-width:26px;height:26px;line-height:24px;text-align:center;border:1.5px solid var(--ok);color:var(--ok);border-radius:50%;font-weight:700;font-size:13px;margin-right:6px}
+table.key{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+table.key th,table.key td{padding:4.5px 10px;border-bottom:1px solid var(--line-soft);text-align:left}
+table.key tr:last-child td{border-bottom:none}
+table.key th{background:var(--tint);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+table.key td.q a{font-weight:600;color:var(--accent);text-decoration:none}
+table.key td.q a:hover{text-decoration:underline}
+table.key td.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.key td.a{white-space:nowrap}
+table.key td.a b{display:inline-block;width:20px;color:var(--ok)}
+table.key tr:nth-child(even) td{background:#fafbfc}
 </style>
 </head>
 <body>
 
 <header class="topnav" id="topnav">
   <div class="tn-r1">
-    <div class="tn-t">TA3 Matematika Aktuaria · Q13 &amp; Q14 <span>· Actuarial Studies</span></div>
+    <div class="tn-t">TA3 Matematika Aktuaria · Answer Key &amp; Solutions <span>· Actuarial Studies</span></div>
     <nav class="tn-l" aria-label="Sections">
-      <a class="tn-a" href="#page-1" data-first="1" data-last="1" title="Cover · Cover"><b>00</b><em>Cover</em></a>
-      <a class="tn-a" href="#section-1" data-first="2" data-last="3" title="01 · Setup"><b>01</b><em>Setup</em></a>
-      <a class="tn-a" href="#section-2" data-first="4" data-last="6" title="02 · Q13 · Variance"><b>02</b><em>Q13 · Variance</em></a>
-      <a class="tn-a" href="#section-3" data-first="7" data-last="9" title="03 · Q14 · Premium"><b>03</b><em>Q14 · Premium</em></a>
-      <a class="tn-a" href="#section-4" data-first="10" data-last="10" title="04 · Answer Key"><b>04</b><em>Answer Key</em></a>
+      <a class="tn-a" href="#page-1" data-first="1" data-last="1" title="00 · Answer Key"><b>00</b><em>Answer Key</em></a>
+      <a class="tn-a" href="#section-1" data-first="2" data-last="6" title="01 · Q1–5"><b>01</b><em>Q1–5</em></a>
+      <a class="tn-a" href="#section-2" data-first="7" data-last="11" title="02 · Q6–10"><b>02</b><em>Q6–10</em></a>
+      <a class="tn-a" href="#section-3" data-first="12" data-last="16" title="03 · Q11–15"><b>03</b><em>Q11–15</em></a>
+      <a class="tn-a" href="#section-4" data-first="17" data-last="21" title="04 · Q16–20"><b>04</b><em>Q16–20</em></a>
+      <a class="tn-a" href="#section-5" data-first="22" data-last="26" title="05 · Q21–25"><b>05</b><em>Q21–25</em></a>
+      <a class="tn-a" href="#section-6" data-first="27" data-last="31" title="06 · Q26–30"><b>06</b><em>Q26–30</em></a>
     </nav>
     <button class="tn-btn" id="tn-present" type="button" title="Present one page at a time (Esc exits)">Present</button>
     <button class="tn-btn" id="tn-print" type="button" title="Print or save as PDF (A4 portrait)">Print</button>
   </div>
   <div class="tn-r2">
     <div id="tn-s">
-      <div class="tn-set" data-first="1" data-last="10">
-        <div class="tn-g" data-first="1" data-last="1"><a class="tn-gk" href="#page-1">Cover</a>
-          <a class="tn-c" href="#page-1" data-slide="1" data-t="Cover" title="Page 1 · Cover">1</a></div>
-        <div class="tn-g" data-first="2" data-last="3"><a class="tn-gk" href="#section-1">01</a>
-          <a class="tn-c" href="#page-2" data-slide="2" data-t="Problem setup" title="Page 2 · Problem setup">2</a>
-          <a class="tn-c" href="#page-3" data-slide="3" data-t="Values used" title="Page 3 · Values used">3</a></div>
-        <div class="tn-g" data-first="4" data-last="6"><a class="tn-gk" href="#section-2">02</a>
-          <a class="tn-c" href="#page-4" data-slide="4" data-t="Q13 · Question and method" title="Page 4 · Q13 · Question and method">4</a>
-          <a class="tn-c" href="#page-5" data-slide="5" data-t="Q13 · Calculation and answer" title="Page 5 · Q13 · Calculation and answer">5</a>
-          <a class="tn-c" href="#page-6" data-slide="6" data-t="Q13 · Cross-check and trap" title="Page 6 · Q13 · Cross-check and trap">6</a></div>
-        <div class="tn-g" data-first="7" data-last="9"><a class="tn-gk" href="#section-3">03</a>
-          <a class="tn-c" href="#page-7" data-slide="7" data-t="Q14 · Question and model" title="Page 7 · Q14 · Question and model">7</a>
-          <a class="tn-c" href="#page-8" data-slide="8" data-t="Q14 · Solve for P" title="Page 8 · Q14 · Solve for P">8</a>
-          <a class="tn-c" href="#page-9" data-slide="9" data-t="Q14 · Check and takeaway" title="Page 9 · Q14 · Check and takeaway">9</a></div>
-        <div class="tn-g" data-first="10" data-last="10"><a class="tn-gk" href="#section-4">04</a>
-          <a class="tn-c" href="#page-10" data-slide="10" data-t="Answer key and formula sheet" title="Page 10 · Answer key and formula sheet">10</a></div>
+      <div class="tn-set" data-first="1" data-last="31">
+        <div class="tn-g" data-first="1" data-last="1"><a class="tn-gk" href="#page-1">Key</a>
+          <a class="tn-c" href="#page-1" data-slide="1" data-t="Answer key" title="Page 1 · Answer key">Key</a></div>
+        <div class="tn-g" data-first="2" data-last="6"><a class="tn-gk" href="#section-1">01</a>
+          <a class="tn-c" href="#page-2" data-slide="2" data-t="Q1 · Endowment loss variance" title="Page 2 · Q1 · Endowment loss variance">1</a>
+          <a class="tn-c" href="#page-3" data-slide="3" data-t="Q2 · Term insurance premium" title="Page 3 · Q2 · Term insurance premium">2</a>
+          <a class="tn-c" href="#page-4" data-slide="4" data-t="Q3 · Gross premium, step-down plan" title="Page 4 · Q3 · Gross premium, step-down plan">3</a>
+          <a class="tn-c" href="#page-5" data-slide="5" data-t="Q4 · Gross premium formula" title="Page 5 · Q4 · Gross premium formula">4</a>
+          <a class="tn-c" href="#page-6" data-slide="6" data-t="Q5 · Two lives, De Moivre" title="Page 6 · Q5 · Two lives, De Moivre">5</a></div>
+        <div class="tn-g" data-first="7" data-last="11"><a class="tn-gk" href="#section-2">02</a>
+          <a class="tn-c" href="#page-7" data-slide="7" data-t="Q6 · Term insurance from annuities" title="Page 7 · Q6 · Term insurance from annuities">6</a>
+          <a class="tn-c" href="#page-8" data-slide="8" data-t="Q7 · Select table, UDD" title="Page 8 · Q7 · Select table, UDD">7</a>
+          <a class="tn-c" href="#page-9" data-slide="9" data-t="Q8 · Fractional-duration reserve" title="Page 9 · Q8 · Fractional-duration reserve">8</a>
+          <a class="tn-c" href="#page-10" data-slide="10" data-t="Q9 · Double decrement, UDD" title="Page 10 · Q9 · Double decrement, UDD">9</a>
+          <a class="tn-c" href="#page-11" data-slide="11" data-t="Q10 · Reserve recursion" title="Page 11 · Q10 · Reserve recursion">10</a></div>
+        <div class="tn-g" data-first="12" data-last="16"><a class="tn-gk" href="#section-3">03</a>
+          <a class="tn-c" href="#page-12" data-slide="12" data-t="Q11 · Piecewise force, limited lifetime" title="Page 12 · Q11 · Piecewise force, limited lifetime">11</a>
+          <a class="tn-c" href="#page-13" data-slide="13" data-t="Q12 · Joint and reversionary annuity" title="Page 13 · Q12 · Joint and reversionary annuity">12</a>
+          <a class="tn-c" href="#page-14" data-slide="14" data-t="Q13 · Deferred annuity variance" title="Page 14 · Q13 · Deferred annuity variance">13</a>
+          <a class="tn-c" href="#page-15" data-slide="15" data-t="Q14 · Normal approximation premium" title="Page 15 · Q14 · Normal approximation premium">14</a>
+          <a class="tn-c" href="#page-16" data-slide="16" data-t="Q15 · Multi-state joint life" title="Page 16 · Q15 · Multi-state joint life">15</a></div>
+        <div class="tn-g" data-first="17" data-last="21"><a class="tn-gk" href="#section-4">04</a>
+          <a class="tn-c" href="#page-17" data-slide="17" data-t="Q16 · Select table, UDD" title="Page 17 · Q16 · Select table, UDD">16</a>
+          <a class="tn-c" href="#page-18" data-slide="18" data-t="Q17 · Makeham joint life" title="Page 18 · Q17 · Makeham joint life">17</a>
+          <a class="tn-c" href="#page-19" data-slide="19" data-t="Q18 · Thiele’s equation" title="Page 19 · Q18 · Thiele’s equation">18</a>
+          <a class="tn-c" href="#page-20" data-slide="20" data-t="Q19 · Reserve recursion" title="Page 20 · Q19 · Reserve recursion">19</a>
+          <a class="tn-c" href="#page-21" data-slide="21" data-t="Q20 · Piecewise force, limited lifetime" title="Page 21 · Q20 · Piecewise force, limited lifetime">20</a></div>
+        <div class="tn-g" data-first="22" data-last="26"><a class="tn-gk" href="#section-5">05</a>
+          <a class="tn-c" href="#page-22" data-slide="22" data-t="Q21 · Conditional loss variance" title="Page 22 · Q21 · Conditional loss variance">21</a>
+          <a class="tn-c" href="#page-23" data-slide="23" data-t="Q22 · Full preliminary term reserve" title="Page 23 · Q22 · Full preliminary term reserve">22</a>
+          <a class="tn-c" href="#page-24" data-slide="24" data-t="Q23 · Gain by source" title="Page 24 · Q23 · Gain by source">23</a>
+          <a class="tn-c" href="#page-25" data-slide="25" data-t="Q24 · Combining insurance variances" title="Page 25 · Q24 · Combining insurance variances">24</a>
+          <a class="tn-c" href="#page-26" data-slide="26" data-t="Q25 · Percentile of a PV variable" title="Page 26 · Q25 · Percentile of a PV variable">25</a></div>
+        <div class="tn-g" data-first="27" data-last="31"><a class="tn-gk" href="#section-6">06</a>
+          <a class="tn-c" href="#page-27" data-slide="27" data-t="Q26 · Triple decrement, UDD single tables" title="Page 27 · Q26 · Triple decrement, UDD single tables">26</a>
+          <a class="tn-c" href="#page-28" data-slide="28" data-t="Q27 · Temporary annuity variance" title="Page 28 · Q27 · Temporary annuity variance">27</a>
+          <a class="tn-c" href="#page-29" data-slide="29" data-t="Q28 · Piecewise force of mortality" title="Page 29 · Q28 · Piecewise force of mortality">28</a>
+          <a class="tn-c" href="#page-30" data-slide="30" data-t="Q29 · Asset share and withdrawals" title="Page 30 · Q29 · Asset share and withdrawals">29</a>
+          <a class="tn-c" href="#page-31" data-slide="31" data-t="Q30 · Joint life, first death" title="Page 31 · Q30 · Joint life, first death">30</a></div>
       </div>
     </div>
     <div class="tn-arrows">
       <button class="tn-arr" id="tn-prev" type="button" aria-label="Previous page">&#8249;</button>
-      <span id="tn-pos">Page 1 of 10</span>
+      <span id="tn-pos">Key · Page 1 of 31</span>
       <button class="tn-arr" id="tn-next" type="button" aria-label="Next page">&#8250;</button>
     </div>
   </div>
 </header>
 
 <main>
-<section id="cover">
+<section id="answer-key">
 <div class="page" id="page-1" data-page="1"><div class="page-frame"><div class="page-canvas">
-  <div class="p-head"><span>Actuarial Studies · Study Notes</span><span>19 November 2026</span></div>
+  <div class="p-head"><span>Actuarial Studies · Answer Key</span><span>19 November 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="cv-kick" style="margin:44px 0 18px">TA3 (d/h A60) · Matematika Aktuaria · Periode Agustus 2026</div>
-    <h1 class="cv-title">Questions 13 &amp; 14<br>Deferred Life Annuity on (50)</h1>
-    <p class="cv-sub">Variance of the present value of a 10-year deferred, fully discrete whole life annuity-due, and the net single premium that keeps a 60-policy portfolio's probability of loss at 20%.</p>
-    <dl class="cv-meta">
-      <dt>Source</dt><dd>TA3 – Matematika Aktuaria, Periode Agustus 2026 · Halaman 10 (Soal 13–14)</dd>
-      <dt>Tables used</dt><dd>Lampiran 3 · Illustrative Life Table (<span class="m"><i>i</i></span> = 6%) · Tabel distribusi normal standar</dd>
-      <dt>Prepared by</dt><dd>Adelia Chindranata</dd>
-      <dt>Date</dt><dd>19 November 2026</dd>
-    </dl>
-    <h3 style="margin-top:0">Contents</h3>
-    <ul class="toc">
-      <li><b>01</b><a href="#section-1">Problem setup — reading <span class="m"><i>Z</i></span> and the table values</a><span>Pages 2–3</span></li>
-      <li><b>02</b><a href="#section-2">Q13 · Variance of <span class="m"><i>Z</i></span></a><span>Pages 4–6</span></li>
-      <li><b>03</b><a href="#section-3">Q14 · Premium by normal approximation</a><span>Pages 7–9</span></li>
-      <li><b>04</b><a href="#section-4">Answer key and formula sheet</a><span>Page 10</span></li>
-    </ul>
-    <div class="grid2" style="margin-top:26px">
-      <div class="cell tint"><div class="lbl">Q13 · Answer</div><span class="big">(e) 6.683</span><div class="small muted">Var(<span class="m"><i>Z</i></span>) = 39.0951 − 5.6932² </div></div>
-      <div class="cell tint"><div class="lbl">Q14 · Answer</div><span class="big">(a) 6.0</span><div class="small muted"><span class="m"><i>P</i></span> = 5.6932 + 0.842 × √(6.6828 / 60) = 5.974</div></div>
-    </div>
+    <div class="eyebrow">TA3 (d/h A60) · Matematika Aktuaria · Periode Agustus 2026</div>
+    <h1 class="s-title">Answer Key — Questions 1 to 30</h1>
+    <div class="s-rule"></div>
+    <p class="en" style="margin-bottom:12px">Every answer is worked from the exam’s own tables (Standard Select Life Table at 5%, Illustrative Life Table at 6%, standard normal table). Select a question number to open its full solution.</p>
+    <table class="key"><tr><th style="width:44px">Q</th><th>Topic</th><th style="text-align:right">Computed</th><th style="width:150px">Answer</th></tr><tr><td class="q"><a href="#page-2">Q1</a></td><td>Endowment loss variance</td><td class="r">14,490</td><td class="a"><b>d</b>14.500</td></tr><tr><td class="q"><a href="#page-3">Q2</a></td><td>Term insurance premium</td><td class="r">178.65</td><td class="a"><b>c</b>178,5</td></tr><tr><td class="q"><a href="#page-4">Q3</a></td><td>Gross premium, step-down plan</td><td class="r">1,131</td><td class="a"><b>c</b>1.130</td></tr><tr><td class="q"><a href="#page-5">Q4</a></td><td>Gross premium formula</td><td class="r">formula (b)</td><td class="a"><b>b</b>formula</td></tr><tr><td class="q"><a href="#page-6">Q5</a></td><td>Two lives, De Moivre</td><td class="r">34.44</td><td class="a"><b>c</b>34</td></tr><tr><td class="q"><a href="#page-7">Q6</a></td><td>Term insurance from annuities</td><td class="r">0.2223</td><td class="a"><b>e</b>0,2223</td></tr><tr><td class="q"><a href="#page-8">Q7</a></td><td>Select table, UDD</td><td class="r">0.768</td><td class="a"><b>e</b>0,77</td></tr><tr><td class="q"><a href="#page-9">Q8</a></td><td>Fractional-duration reserve</td><td class="r">285.57</td><td class="a"><b>d</b>286</td></tr><tr><td class="q"><a href="#page-10">Q9</a></td><td>Double decrement, UDD</td><td class="r">0.0713</td><td class="a"><b>a</b>0,071</td></tr><tr><td class="q"><a href="#page-11">Q10</a></td><td>Reserve recursion</td><td class="r">226.2</td><td class="a"><b>e</b>226</td></tr><tr><td class="q"><a href="#page-12">Q11</a></td><td>Piecewise force, limited lifetime</td><td class="r">1.937</td><td class="a"><b>d</b>1,94</td></tr><tr><td class="q"><a href="#page-13">Q12</a></td><td>Joint and reversionary annuity</td><td class="r">6,448</td><td class="a"><b>c</b>6.450</td></tr><tr><td class="q"><a href="#page-14">Q13</a></td><td>Deferred annuity variance</td><td class="r">6.683</td><td class="a"><b>e</b>6,683</td></tr><tr><td class="q"><a href="#page-15">Q14</a></td><td>Normal approximation premium</td><td class="r">5.974</td><td class="a"><b>a</b>6,0</td></tr><tr><td class="q"><a href="#page-16">Q15</a></td><td>Multi-state joint life</td><td class="r">34.77</td><td class="a"><b>b</b>34,8</td></tr><tr><td class="q"><a href="#page-17">Q16</a></td><td>Select table, UDD</td><td class="r">0.7996</td><td class="a"><b>e</b>0,80</td></tr><tr><td class="q"><a href="#page-18">Q17</a></td><td>Makeham joint life</td><td class="r">12.5</td><td class="a"><b>b</b>12,5</td></tr><tr><td class="q"><a href="#page-19">Q18</a></td><td>Thiele’s equation</td><td class="r">0.542</td><td class="a"><b>b</b>0,54</td></tr><tr><td class="q"><a href="#page-20">Q19</a></td><td>Reserve recursion</td><td class="r">197.7</td><td class="a"><b>b</b>198</td></tr><tr><td class="q"><a href="#page-21">Q20</a></td><td>Piecewise force, limited lifetime</td><td class="r">2.814</td><td class="a"><b>a</b>2,81</td></tr><tr><td class="q"><a href="#page-22">Q21</a></td><td>Conditional loss variance</td><td class="r">10,555</td><td class="a"><b>c</b>10.555</td></tr><tr><td class="q"><a href="#page-23">Q22</a></td><td>Full preliminary term reserve</td><td class="r">9.26</td><td class="a"><b>a</b>9,26</td></tr><tr><td class="q"><a href="#page-24">Q23</a></td><td>Gain by source</td><td class="r">39,022</td><td class="a"><b>e</b>39.022</td></tr><tr><td class="q"><a href="#page-25">Q24</a></td><td>Combining insurance variances</td><td class="r">258.3</td><td class="a"><b>c</b>258</td></tr><tr><td class="q"><a href="#page-26">Q25</a></td><td>Percentile of a PV variable</td><td class="r">58.7</td><td class="a"><b>e</b>59</td></tr><tr><td class="q"><a href="#page-27">Q26</a></td><td>Triple decrement, UDD single tables</td><td class="r">14.86</td><td class="a"><b>d</b>14,86</td></tr><tr><td class="q"><a href="#page-28">Q27</a></td><td>Temporary annuity variance</td><td class="r">2.754</td><td class="a"><b>d</b>2,75</td></tr><tr><td class="q"><a href="#page-29">Q28</a></td><td>Piecewise force of mortality</td><td class="r">0.5197</td><td class="a"><b>c</b>0,52</td></tr><tr><td class="q"><a href="#page-30">Q29</a></td><td>Asset share and withdrawals</td><td class="r">0.09</td><td class="a"><b>e</b>0,09</td></tr><tr><td class="q"><a href="#page-31">Q30</a></td><td>Joint life, first death</td><td class="r">0.162</td><td class="a"><b>c</b>0,162</td></tr></table>
   </div></div>
-  <div class="p-foot"><span><b>00</b>Cover</span><span>Page 1 of 10</span></div>
+  <div class="p-foot"><span><b>Key</b>Summary of answers</span><span>Page 1 of 31</span></div>
 </div></div></div>
 </section>
 <section id="section-1">
 <div class="page" id="page-2" data-page="2"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">01 · Shared setup for Q13 and Q14</div>
-    <h2 class="s-title">Problem setup</h2>
+    <div class="eyebrow">Question 1 · Endowment loss variance</div>
+    <h2 class="s-title">SD of L₀, 20-year endowment</h2>
     <div class="s-rule"></div>
-
-    <div class="cell tint src">
-      <div class="lbl">Original text (Halaman 10)</div>
-      Untuk Soal 13 dan 14, perhatikan sebuah anuitas hidup seumur hidup (<i>whole life annuity</i>) sebesar 1 dengan penangguhan (<i>deferred</i>) 10 tahun, yang bersifat <i>fully discrete</i>, pada (50). Diberikan:<br>
-      (i) Mortalitas mengikuti Illustrative Life Table.<br>
-      (ii) <span class="m"><i>i</i></span> = 0,06<br>
-      (iii) Nilai sekarang dari manfaat di masa depan adalah
-      <div class="eq" style="margin:6px 0 2px;font-size:16px"><i>Z</i> = <span class="case">
-        <span>0,</span><span>jika <i>K</i><sub>50</sub> ≤ 9;</span>
-        <span><i>v</i><sup>10</sup> ä<span class="ang"><i>K</i><sub>50</sub>−9</span>,</span><span>jika <i>K</i><sub>50</sub> ≥ 10.</span></span></div>
-    </div>
-
-    <p><b>In English.</b> A fully discrete whole life annuity-due of 1 per year on a life aged 50, deferred 10 years. Mortality follows the Illustrative Life Table and <span class="m"><i>i</i></span> = 0.06. <span class="m"><i>Z</i></span> is the present value of the future benefits, where <span class="m"><i>K</i><sub>50</sub></span> is the curtate future lifetime of (50).</p>
-
-    <h3>How to read <span class="m"><i>Z</i></span></h3>
-    <svg viewBox="0 0 660 118" width="100%" role="img" aria-label="Timeline: no payment in years 0 to 9; payments of 1 at times 10, 11, up to K50" style="display:block;margin:2px 0 8px">
-      <line x1="20" y1="58" x2="640" y2="58" stroke="#1b1b1b" stroke-width="1.2"/>
-      <g font-family="Segoe UI,Arial" font-size="12" fill="#555" text-anchor="middle">
-        <line x1="40" y1="52" x2="40" y2="64" stroke="#1b1b1b"/><text x="40" y="82">0</text><text x="40" y="98" font-size="11" fill="#8a8a8a">age 50</text>
-        <line x1="300" y1="52" x2="300" y2="64" stroke="#1b1b1b"/><text x="300" y="82">10</text><text x="300" y="98" font-size="11" fill="#8a8a8a">age 60</text>
-        <line x1="360" y1="52" x2="360" y2="64" stroke="#1b1b1b"/><text x="360" y="82">11</text>
-        <line x1="420" y1="52" x2="420" y2="64" stroke="#1b1b1b"/><text x="420" y="82">12</text>
-        <text x="490" y="82">…</text>
-        <line x1="560" y1="52" x2="560" y2="64" stroke="#1b1b1b"/><text x="560" y="82" font-style="italic">K₅₀</text>
-        <line x1="620" y1="52" x2="620" y2="64" stroke="#1b1b1b" stroke-dasharray="2 2"/><text x="620" y="82" font-style="italic">K₅₀+1</text><text x="620" y="98" font-size="11" fill="#8a8a8a">death year</text>
-      </g>
-      <rect x="40" y="30" width="260" height="14" fill="#f4f6f8" stroke="#d4d4d4"/>
-      <text x="170" y="22" font-family="Segoe UI,Arial" font-size="11.5" fill="#8a8a8a" text-anchor="middle">deferral: no payment</text>
-      <g fill="#0f5fa8"><circle cx="300" cy="58" r="5"/><circle cx="360" cy="58" r="5"/><circle cx="420" cy="58" r="5"/><circle cx="560" cy="58" r="5"/></g>
-      <text x="430" y="22" font-family="Segoe UI,Arial" font-size="11.5" fill="#0f5fa8" text-anchor="middle">payments of 1: count = K₅₀ − 9</text>
-    </svg>
-    <ul class="b">
-      <li>If (50) dies before 60 (<span class="m"><i>K</i><sub>50</sub> ≤ 9</span>), nothing is paid: <span class="m"><i>Z</i> = 0</span>.</li>
-      <li>If (50) reaches 60, payments of 1 are made at times 10, 11, …, <span class="m"><i>K</i><sub>50</sub></span>: that is <span class="m"><i>K</i><sub>50</sub> − 9</span> payments, valued at time 10 and discounted by <span class="m"><i>v</i><sup>10</sup></span>.</li>
-      <li>Given survival to 60, <span class="m"><i>K</i><sub>60</sub> = <i>K</i><sub>50</sub> − 10</span>, so <span class="m"><i>K</i><sub>50</sub> − 9 = <i>K</i><sub>60</sub> + 1</span>. Hence
-        <span class="m"><i>Z</i> = <i>v</i><sup>10</sup> · <i>I</i> · ä<span class="ang"><i>K</i><sub>60</sub>+1</span></span>, where <span class="m"><i>I</i></span> = 1 if (50) survives to 60 (probability <span class="m"><span class="pre">10</span><i>p</i><sub>50</sub></span>).</li>
-    </ul>
+    <div class="cell tint src"><div class="lbl">Original question</div>1. Sebuah perusahaan asuransi menerbitkan polis asuransi dwiguna (<i>endowment insurance</i>) berjangka 20 tahun kepada seseorang berusia 40 tahun dengan uang pertanggungan sebesar 250.000, yang dibayarkan pada akhir tahun terjadinya kematian. Premi dibayarkan setiap tahun di muka (awal tahun) selama masa pertanggungan polis. Diasumsikan bahwa tingkat mortalitas mengikuti Standard Select Life Table (Tabel Mortalitas Seleksi Standar) dan tingkat suku bunga adalah 5% per tahun. Tentukan simpangan baku (<i>standard deviation</i>) dari peubah acak atas kerugian bersih (<i>L</i><sub>0</sub>) pada saat penerbitan dengan menggunakan premi yang diperoleh dengan prinsip ekuivalensi. (Pilih jawaban dengan pembulatan terdekat)<div class="opts"><span><b>a.</b>13.000</span><span><b>b.</b>13.500</span><span><b>c.</b>14.000</span><span><b>d.</b>14.500</span><span><b>e.</b>15.000</span></div></div>
+    <p class="en"><b>In English.</b> Find the standard deviation of the net loss at issue for a 20-year endowment of 250,000 on a select life aged 40, with the equivalence-principle premium (Standard Select Life Table, 5%).</p>
+    <h3><span class="no">1</span>Loss variable under the equivalence principle</h3><div class="eq">Var(<i>L</i><sub>0</sub>) = (<i>S</i> + <i>P</i>/<i>d</i>)<sup>2</sup> ( <sup>2</sup><i>A</i> − <i>A</i><sup>2</sup> ), &nbsp; <i>S</i> + <i>P</i>/<i>d</i> = <span class="frac"><span><i>S</i></span><span>1 − <i>A</i></span></span></div><div class="eq">SD(<i>L</i><sub>0</sub>) = <i>S</i> · <span class="frac"><span>√( <sup>2</sup><i>A</i> − <i>A</i><sup>2</sup> )</span><span>1 − <i>A</i></span></span>, &nbsp; <i>A</i> = <i>A</i><sub>[40]:<span class="ang">20</span></sub></div><h3><span class="no">2</span>Build the endowment values from the select table</h3><div class="eq sm"><i>A</i><sub>[40]:<span class="ang">20</span></sub> = <i>A</i><sub>[40]</sub> − <span class="pre">20</span><i>E</i><sub>[40]</sub><i>A</i><sub>60</sub> + <span class="pre">20</span><i>E</i><sub>[40]</sub>, &nbsp; <sup>2</sup><i>A</i> = <sup>2</sup><i>A</i><sub>[40]</sub> − <i>v</i><sup>20</sup><span class="pre">20</span><i>E</i><sub>[40]</sub><sup>2</sup><i>A</i><sub>60</sub> + <i>v</i><sup>20</sup><span class="pre">20</span><i>E</i><sub>[40]</sub></div><p class="small muted">Table: <span class="m"><i>A</i><sub>[40]</sub></span> = 0.12097, <span class="m"><sup>2</sup><i>A</i><sub>[40]</sub></span> = 0.02338, <span class="m"><span class="pre">20</span><i>E</i><sub>[40]</sub></span> = 0.36667, <span class="m"><i>A</i><sub>60</sub></span> = 0.29028, <span class="m"><sup>2</sup><i>A</i><sub>60</sub></span> = 0.10834; <span class="m"><i>v</i><sup>20</sup></span> = 1.05<sup>−20</sup> = 0.376889.</p><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m"><i>A</i><sub>[40]:<span class="ang">20</span></sub></span></td><td>0.12097 − 0.36667 × 0.29028 + 0.36667</td><td class="n">0.381203</td></tr><tr><td class="s">2</td><td><span class="m"><sup>2</sup><i>A</i><sub>[40]:<span class="ang">20</span></sub></span></td><td>0.02338 − 0.376889 × 0.36667 × 0.10834 + 0.376889 × 0.36667</td><td class="n">0.146602</td></tr><tr><td class="s">3</td><td><span class="m"><sup>2</sup><i>A</i> − <i>A</i><sup>2</sup></span></td><td>0.146602 − 0.381203²</td><td class="n">0.0012865</td></tr><tr class="res"><td class="s">4</td><td><span class="m">SD(<i>L</i><sub>0</sub>)</span></td><td>250,000 × √0.0012865 / (1 − 0.381203)</td><td class="n">14,490</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">d</span>SD(L₀) ≈ 14,490</span></div><div class="opts"><span><b>a.</b>13.000</span><span><b>b.</b>13.500</span><span><b>c.</b>14.000</span><span class="pick"><b>d.</b>14.500 ✓</span><span><b>e.</b>15.000</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>With the equivalence premium, the loss is a <b>scaled endowment</b>: SD = <b>S·√(²A − A²)/(1 − A)</b>. Result: <b>14,490 ≈ 14.500</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>1.1</b>Problem setup</span><span>Page 2 of 10</span></div>
+  <div class="p-foot"><span><b>Q1</b>Endowment loss variance</span><span>Page 2 of 31</span></div>
 </div></div></div>
 <div class="page" id="page-3" data-page="3"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">01 · Shared setup for Q13 and Q14</div>
-    <h2 class="s-title">Values used from the exam tables</h2>
+    <div class="eyebrow">Question 2 · Term insurance premium</div>
+    <h2 class="s-title">Net premium, 10-year term on [50]</h2>
     <div class="s-rule"></div>
-    <p class="s-lead">Every number in the solutions comes from Lampiran 3 (Illustrative Life Table, <span class="m"><i>i</i></span> = 6%) and the exam's standard normal table. Table entries quoted per 1,000 are divided by 1,000.</p>
-    <table class="t">
-      <tr><th>Quantity</th><th>Value</th><th>Source</th></tr>
-      <tr><td><span class="m">ä<sub>60</sub></span></td><td class="n">11.1454</td><td class="small muted">Lampiran 3 (Illustrative Life Table)</td></tr>
-      <tr><td><span class="m"><i>A</i><sub>60</sub></span> · <span class="m"><sup>2</sup><i>A</i><sub>60</sub></span></td><td class="n">0.36913 · 0.17741</td><td class="small muted">Lampiran 3: 1000<i>A</i><sub>60</sub> = 369.13; 1000 <sup>2</sup><i>A</i><sub>60</sub> = 177.41</td></tr>
-      <tr><td><span class="m"><span class="pre">10</span><i>E</i><sub>50</sub></span></td><td class="n">0.51081</td><td class="small muted">Lampiran 3: 1000 <sub>10</sub><i>E</i><sub>50</sub> = 510.81</td></tr>
-      <tr><td><span class="m"><span class="pre">10</span><i>p</i><sub>50</sub> = <i>l</i><sub>60</sub> / <i>l</i><sub>50</sub></span></td><td class="n">0.914777</td><td class="small muted">8,188,074 / 8,950,901</td></tr>
-      <tr><td><span class="m"><i>v</i><sup>10</sup></span> · <span class="m"><i>d</i></span></td><td class="n">0.558395 · 0.0566038</td><td class="small muted"><span class="m"><i>v</i></span> = 1/1.06; <span class="m"><i>d</i></span> = 0.06/1.06</td></tr>
-      <tr><td><span class="m"><i>z</i><sub>0.80</sub></span></td><td class="n">0.842</td><td class="small muted">Tabel distribusi normal standar, row <i>p′</i> = 8,0, column 0</td></tr>
-    </table>
-    <h3>Quick consistency checks on the table</h3>
-    <ul class="b">
-      <li><span class="m">ä<sub>60</sub> = (1 − <i>A</i><sub>60</sub>) / <i>d</i> = (1 − 0.36913) / 0.0566038 = 11.1454</span> — matches the table.</li>
-      <li><span class="m"><span class="pre">10</span><i>E</i><sub>50</sub> = <i>v</i><sup>10</sup> · <span class="pre">10</span><i>p</i><sub>50</sub> = 0.558395 × 0.914777 = 0.51081</span> — matches the table.</li>
-    </ul>
-    <div class="cell tint">
-      <div class="lbl">Reading the normal table</div>
-      The exam table is indexed by <i>p′</i> = 10 × percentile. A 20% probability of loss needs the 80th percentile: row <i>p′</i> = 8,0, column 0 gives <b>0,842</b>.
-    </div>
+    <div class="cell tint src"><div class="lbl">Original question</div>2. Diberikan asuransi berjangka (<i>term insurance</i>) 10 tahun yang bersifat <i>fully discrete</i>, diterbitkan untuk kehidupan terseleksi (<i>select life</i>) berusia 50 tahun, dengan uang pertanggungan 100.000. Asumsikan bahwa mortalitas mengikuti Standard Select Life Table, dan asumsikan suku bunga 5% per tahun. Hitunglah premi tahunan bersih (<i>net annual premium</i>).<div class="opts"><span><b>a.</b>177,5</span><span><b>b.</b>178</span><span><b>c.</b>178,5</span><span><b>d.</b>179</span><span><b>e.</b>179,5</span></div></div>
+    <p class="en"><b>In English.</b> Find the net annual premium for a fully discrete 10-year term insurance of 100,000 on a select life aged 50 (Standard Select Life Table, 5%).</p>
+    <h3><span class="no">1</span>Equivalence principle</h3><div class="eq"><i>P</i> = 100,000 · <span class="frac"><span><i>A</i><sup>1</sup><sub>[50]:<span class="ang">10</span></sub></span><span>ä<sub>[50]:<span class="ang">10</span></sub></span></span></div><h3><span class="no">2</span>Split whole-life values at age 60 (the select period has ended)</h3><div class="eq"><i>A</i><sup>1</sup><sub>[50]:<span class="ang">10</span></sub> = <i>A</i><sub>[50]</sub> − <span class="pre">10</span><i>E</i><sub>[50]</sub> <i>A</i><sub>60</sub>, &nbsp; ä<sub>[50]:<span class="ang">10</span></sub> = ä<sub>[50]</sub> − <span class="pre">10</span><i>E</i><sub>[50]</sub> ä<sub>60</sub></div><p class="small muted">Table: <span class="m"><i>A</i><sub>[50]</sub></span> = 0.18913, <span class="m">ä<sub>[50]</sub></span> = 17.0284, <span class="m"><span class="pre">10</span><i>E</i><sub>[50]</sub></span> = 0.60196, <span class="m"><i>A</i><sub>60</sub></span> = 0.29028, <span class="m">ä<sub>60</sub></span> = 14.9041.</p><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m"><i>A</i><sup>1</sup><sub>[50]:<span class="ang">10</span></sub></span></td><td>0.18913 − 0.60196 × 0.29028</td><td class="n">0.014393</td></tr><tr><td class="s">2</td><td><span class="m">ä<sub>[50]:<span class="ang">10</span></sub></span></td><td>17.0284 − 0.60196 × 14.9041</td><td class="n">8.056728</td></tr><tr class="res"><td class="s">3</td><td><span class="m"><i>P</i></span></td><td>100,000 × 0.014393 / 8.056728</td><td class="n">178.65</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>P ≈ 178.65</span></div><div class="opts"><span><b>a.</b>177,5</span><span><b>b.</b>178</span><span class="pick"><b>c.</b>178,5 ✓</span><span><b>d.</b>179</span><span><b>e.</b>179,5</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Term values = <b>whole life minus deferred whole life</b>: subtract <span class="m"><span class="pre">10</span><i>E</i><sub>[50]</sub></span> × the age-60 value. Result: <b>178.65 ≈ 178,5</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>1.2</b>Values used</span><span>Page 3 of 10</span></div>
+  <div class="p-foot"><span><b>Q2</b>Term insurance premium</span><span>Page 3 of 31</span></div>
 </div></div></div>
-</section>
-<section id="section-2">
 <div class="page" id="page-4" data-page="4"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">02 · Question 13</div>
-    <h2 class="s-title">Variance of <span class="m" style="font-size:1em"><i>Z</i></span></h2>
+    <div class="eyebrow">Question 3 · Gross premium, step-down plan</div>
+    <h2 class="s-title">Gross premium on (55)</h2>
     <div class="s-rule"></div>
-
-    <div class="cell tint src">
-      <div class="lbl">Original question</div>
-      13. Hitunglah varians dari <i>Z</i>.
-      <div class="opts"><span><b>a.</b>0,485</span><span><b>b.</b>3,664</span><span><b>c.</b>4,149</span><span><b>d.</b>4,634</span><span><b>e.</b>6,683</span></div>
-    </div>
-    <p><b>In English.</b> Calculate the variance of <span class="m"><i>Z</i></span>.</p>
-
-    <h3><span class="no">1</span>Write <span class="m"><i>Z</i></span> as a deferral factor times an annuity on (60)</h3>
-    <div class="eq"><i>Z</i> = <i>v</i><sup>10</sup> · <i>I</i> · ä<span class="ang"><i>K</i><sub>60</sub>+1</span>,  &nbsp; <i>I</i> = 1 with probability <span class="pre">10</span><i>p</i><sub>50</sub></div>
-
-    <h3><span class="no">2</span>First moment</h3>
-    <div class="eq"><i>E</i>[<i>Z</i>] = <i>v</i><sup>10</sup> · <span class="pre">10</span><i>p</i><sub>50</sub> · ä<sub>60</sub> = <span class="pre">10</span><i>E</i><sub>50</sub> · ä<sub>60</sub></div>
-
-    <h3><span class="no">3</span>Second moment — square the discount, but not the survival probability</h3>
-    <div class="eq"><i>E</i>[<i>Z</i><sup>2</sup>] = <i>v</i><sup>20</sup> · <span class="pre">10</span><i>p</i><sub>50</sub> · <i>E</i>[ ä<span class="ang"><i>K</i><sub>60</sub>+1</span><sup>2</sup> ] = <i>v</i><sup>10</sup> · <span class="pre">10</span><i>E</i><sub>50</sub> · <i>E</i>[ ä<span class="ang"><i>K</i><sub>60</sub>+1</span><sup>2</sup> ]</div>
-    <p class="small muted" style="margin-top:-6px">Because <span class="m"><i>I</i><sup>2</sup> = <i>I</i></span>, the survival probability appears once while the discount <span class="m"><i>v</i><sup>10</sup></span> is squared.</p>
-
-    <h3><span class="no">4</span>Second moment of the annuity-due on (60)</h3>
-    <p>Using <span class="m">ä<span class="ang"><i>K</i>+1</span> = (1 − <i>v</i><sup><i>K</i>+1</sup>) / <i>d</i></span> and <span class="m"><i>E</i>[<i>v</i><sup><i>K</i>+1</sup>] = <i>A</i><sub>60</sub></span>, <span class="m"><i>E</i>[<i>v</i><sup>2(<i>K</i>+1)</sup>] = <sup>2</sup><i>A</i><sub>60</sub></span>:</p>
-    <div class="eq"><i>E</i>[ ä<span class="ang"><i>K</i><sub>60</sub>+1</span><sup>2</sup> ] = <span class="frac"><span>1 − 2<i>A</i><sub>60</sub> + <sup>2</sup><i>A</i><sub>60</sub></span><span><i>d</i><sup>2</sup></span></span> &nbsp;=&nbsp; <span class="frac"><span><sup>2</sup><i>A</i><sub>60</sub> − (<i>A</i><sub>60</sub>)<sup>2</sup></span><span><i>d</i><sup>2</sup></span></span> + ä<sub>60</sub><sup>2</sup></div>
-
-    <h3><span class="no">5</span>Combine</h3>
-    <div class="eq">Var(<i>Z</i>) = <i>E</i>[<i>Z</i><sup>2</sup>] − (<i>E</i>[<i>Z</i>])<sup>2</sup></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>3. Untuk asuransi jiwa seumur hidup (<i>whole life insurance</i>) yang diterbitkan untuk (55), diberikan:<br>• Premi tahunan awal bersifat tetap (<i>level</i>) selama 10 tahun; setelahnya premi tahunan sama dengan setengah dari premi tahunan awal,<br>• Uang pertanggungan kematian adalah 100.000 selama 10 tahun pertama kontrak, menjadi 50.000 setelahnya, dan dibayarkan pada akhir tahun kematian, dan<br>• biaya (<i>expenses</i>) adalah 25% dari premi tahun pertama ditambah 3% dari seluruh premi berikutnya.<br>Hitunglah premi kotor (<i>gross premium</i>) tahunan awal, dengan asumsi bahwa mortalitas mengikuti Standard Select Life Table, dan bahwa suku bunga adalah 5% per tahun. (Pilih jawaban dengan pembulatan terdekat)<div class="opts"><span><b>a.</b>1.050</span><span><b>b.</b>1.090</span><span><b>c.</b>1.130</span><span><b>d.</b>1.170</span><span><b>e.</b>1.210</span></div></div>
+    <p class="en"><b>In English.</b> Find the initial annual gross premium G for whole life on (55): premium G for 10 years then G/2; benefit 100,000 for 10 years then 50,000; expenses 25% of the first premium plus 3% of later premiums.</p>
+    <h3><span class="no">1</span>Write each piece as a combination of whole-life values</h3><div class="eq sm">EPV premiums = <i>G</i> ( ä<sub>[55]</sub> − ½ · <span class="pre">10</span><i>E</i><sub>[55]</sub> ä<sub>65</sub> ) = <i>G</i> · ä′</div><div class="eq sm">EPV benefits = 50,000 <i>A</i><sub>[55]</sub> + 50,000 ( <i>A</i><sub>[55]</sub> − <span class="pre">10</span><i>E</i><sub>[55]</sub> <i>A</i><sub>65</sub> )</div><div class="eq sm">EPV expenses = 0.25<i>G</i> + 0.03(<i>G</i>ä′ − <i>G</i>) = 0.22<i>G</i> + 0.03<i>G</i>ä′</div><h3><span class="no">2</span>Equivalence</h3><div class="eq"><i>G</i> ( 0.97 ä′ − 0.22 ) = EPV benefits</div><p class="small muted">Table: <span class="m">ä<sub>[55]</sub></span> = 16.0658, <span class="m"><i>A</i><sub>[55]</sub></span> = 0.23496, <span class="m"><span class="pre">10</span><i>E</i><sub>[55]</sub></span> = 0.59366, <span class="m">ä<sub>65</sub></span> = 13.5498, <span class="m"><i>A</i><sub>65</sub></span> = 0.35477.</p><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>ä′</td><td>16.0658 − 0.5 × 0.59366 × 13.5498</td><td class="n">12.043813</td></tr><tr><td class="s">2</td><td>10-year term</td><td>0.23496 − 0.59366 × 0.35477</td><td class="n">0.024347</td></tr><tr><td class="s">3</td><td>EPV benefits</td><td>50,000 × 0.23496 + 50,000 × 0.024347</td><td class="n">12,965.36</td></tr><tr><td class="s">4</td><td>Denominator</td><td>0.97 × 12.043813 − 0.22</td><td class="n">11.462498</td></tr><tr class="res"><td class="s">5</td><td><span class="m"><i>G</i></span></td><td>12,965.36 / 11.462498</td><td class="n">1,131.1</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>G ≈ 1,131</span></div><div class="opts"><span><b>a.</b>1.050</span><span><b>b.</b>1.090</span><span class="pick"><b>c.</b>1.130 ✓</span><span><b>d.</b>1.170</span><span><b>e.</b>1.210</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>A step-down plan is <b>half a whole-life plan plus half a 10-year plan</b>, for both premiums and benefits. Result: <b>1,131 ≈ 1.130</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>2.1</b>Q13 · Question and method</span><span>Page 4 of 10</span></div>
+  <div class="p-foot"><span><b>Q3</b>Gross premium, step-down plan</span><span>Page 4 of 31</span></div>
 </div></div></div>
 <div class="page" id="page-5" data-page="5"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">02 · Question 13</div>
-    <h2 class="s-title">Calculation and answer</h2>
+    <div class="eyebrow">Question 4 · Gross premium formula</div>
+    <h2 class="s-title">Gross premium with expenses</h2>
     <div class="s-rule"></div>
-
-    <table class="t">
-      <tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr>
-      <tr><td class="s">1</td><td><span class="m"><i>d</i><sup>2</sup></span></td><td><span class="m">(0.06 / 1.06)<sup>2</sup> = 0.0566038<sup>2</sup></span></td><td class="n">0.00320399</td></tr>
-      <tr><td class="s">2</td><td><span class="m">1 − 2<i>A</i><sub>60</sub> + <sup>2</sup><i>A</i><sub>60</sub></span></td><td><span class="m">1 − 0.73826 + 0.17741</span></td><td class="n">0.43915</td></tr>
-      <tr><td class="s">3</td><td><span class="m"><i>E</i>[ ä<span class="ang"><i>K</i><sub>60</sub>+1</span><sup>2</sup> ]</span></td><td><span class="m">0.43915 / 0.00320399</span></td><td class="n">137.0636</td></tr>
-      <tr><td class="s">4</td><td><span class="m"><i>v</i><sup>10</sup> · <span class="pre">10</span><i>E</i><sub>50</sub></span></td><td><span class="m">0.558395 × 0.51081</span></td><td class="n">0.285234</td></tr>
-      <tr><td class="s">5</td><td><span class="m"><i>E</i>[<i>Z</i><sup>2</sup>]</span></td><td><span class="m">0.285234 × 137.0636</span></td><td class="n">39.0951</td></tr>
-      <tr><td class="s">6</td><td><span class="m"><i>E</i>[<i>Z</i>]</span></td><td><span class="m">0.51081 × 11.1454</span></td><td class="n">5.6932</td></tr>
-      <tr><td class="s">7</td><td><span class="m">(<i>E</i>[<i>Z</i>])<sup>2</sup></span></td><td><span class="m">5.6932<sup>2</sup></span></td><td class="n">32.4123</td></tr>
-      <tr class="res"><td class="s">8</td><td><span class="m">Var(<i>Z</i>)</span></td><td><span class="m">39.0951 − 32.4123</span></td><td class="n">6.6828</td></tr>
-    </table>
-
-    <div class="cell ans">
-      <div class="lbl">Answer</div>
-      <span class="big">Var(<span class="m" style="font-size:1em"><i>Z</i></span>) ≈ 6.683 → option (e)</span>
-      <div class="opts"><span><b>a.</b>0,485</span><span><b>b.</b>3,664</span><span><b>c.</b>4,149</span><span><b>d.</b>4,634</span><span class="pick"><b>e.</b>6,683 ✓</span></div>
-    </div>
-
-    <div class="cell tint">
-      <div class="lbl">In a Nutshell</div>
-      Square the <b>discount</b> <span class="m"><i>v</i><sup>10</sup></span>, never the <b>survival probability</b>: <span class="m"><i>E</i>[<i>Z</i><sup>2</sup>] = <i>v</i><sup>10</sup> · <span class="pre">10</span><i>E</i><sub>50</sub> · (1 − 2<i>A</i><sub>60</sub> + <sup>2</sup><i>A</i><sub>60</sub>) / <i>d</i><sup>2</sup></span>, then subtract <span class="m">(<span class="pre">10</span><i>E</i><sub>50</sub> ä<sub>60</sub>)<sup>2</sup></span>. Result: <b>6.683</b>.
-    </div>
+    <div class="cell tint src"><div class="lbl">Original question</div>4. Untuk asuransi jiwa seumur hidup (<i>whole life insurance</i>) sebesar 1.000 yang diterbitkan untuk kehidupan terseleksi pada usia (x),<br>(i) Persentase biaya premi adalah 90% pada tahun pertama, dan 10% pada setiap tahun berikutnya.<br>(ii) Biaya pemeliharaan (<i>maintenance expenses</i>) adalah 15 per 1.000 uang pertanggungan pada tahun pertama, dan 3 per 1.000 uang pertanggungan setelahnya.<br>(iii) Biaya penyelesaian klaim (<i>claim settlement expenses</i>) adalah 10 per 1.000 uang pertanggungan.<br>(iv) Digunakan mortalitas <i>select and ultimate</i> 15 tahun.<br>Hitunglah premi kotor (<i>gross premium</i>) untuk polis ini.<ul class="optcol"><li><b>a.</b>(1.010Ā<sub>[x]</sub> + 12 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,9)</li><li><b>b.</b>(1.010Ā<sub>[x]</sub> + 12 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,8)</li><li><b>c.</b>(1.010Ā<sub>[x]</sub> + 15 + 3ä<sub>[x]</sub>) / (ä<sub>[x]</sub> − 0,9)</li><li><b>d.</b>(1.010Ā<sub>[x]</sub> + 15 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,9)</li><li><b>e.</b>(1.010Ā<sub>[x]</sub> + 15 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,8)</li></ul></div>
+    <p class="en"><b>In English.</b> Find the gross premium formula for whole life of 1,000 on a select life [x] with the listed premium, maintenance and claim expenses.</p>
+    <h3><span class="no">1</span>Equivalence principle: EPV premiums = EPV benefits + EPV expenses</h3><div class="eq sm"><i>G</i> ä<sub>[<i>x</i>]</sub> = 1,000 Ā<sub>[<i>x</i>]</sub> + 10 Ā<sub>[<i>x</i>]</sub> + 0.9<i>G</i> + 0.1<i>G</i>(ä<sub>[<i>x</i>]</sub> − 1) + 15 + 3(ä<sub>[<i>x</i>]</sub> − 1)</div><ul class="b"><li>Claim expense of 10 per 1,000 travels with the death benefit, so it adds 10Ā.</li><li>First-year expenses are written as the renewal level plus the extra: 90% = 10% + 80%, and 15 = 3 + 12.</li></ul><h3><span class="no">2</span>Collect the G terms</h3><div class="eq"><i>G</i> ä<sub>[<i>x</i>]</sub> − 0.1<i>G</i> ä<sub>[<i>x</i>]</sub> − 0.8<i>G</i> = 1,010 Ā<sub>[<i>x</i>]</sub> + 12 + 3ä<sub>[<i>x</i>]</sub></div><div class="eq"><i>G</i> = <span class="frac"><span>1,010 Ā<sub>[<i>x</i>]</sub> + 12 + 3ä<sub>[<i>x</i>]</sub></span><span>0.9 ä<sub>[<i>x</i>]</sub> − 0.8</span></span></div>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">b</span>G = (1,010Ā[x] + 12 + 3ä[x]) / (0.9ä[x] − 0.8)</span></div><ul class="optcol"><li><b>a.</b>(1.010Ā<sub>[x]</sub> + 12 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,9)</li><li class="pick"><b>b.</b>(1.010Ā<sub>[x]</sub> + 12 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,8) ✓</li><li><b>c.</b>(1.010Ā<sub>[x]</sub> + 15 + 3ä<sub>[x]</sub>) / (ä<sub>[x]</sub> − 0,9)</li><li><b>d.</b>(1.010Ā<sub>[x]</sub> + 15 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,9)</li><li><b>e.</b>(1.010Ā<sub>[x]</sub> + 15 + 3ä<sub>[x]</sub>) / (0,9ä<sub>[x]</sub> − 0,8)</li></ul></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Write first-year expenses as <b>renewal level + first-year extra</b>: the extras give the constants <b>12</b> and <b>0.8</b>; the renewal levels give <b>3ä</b> and <b>0.1Gä</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>2.2</b>Q13 · Calculation and answer</span><span>Page 5 of 10</span></div>
+  <div class="p-foot"><span><b>Q4</b>Gross premium formula</span><span>Page 5 of 31</span></div>
 </div></div></div>
 <div class="page" id="page-6" data-page="6"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">02 · Question 13</div>
-    <h2 class="s-title">Cross-check and common trap</h2>
+    <div class="eyebrow">Question 5 · Two lives, De Moivre</div>
+    <h2 class="s-title">Expected lifetime, (40) and (60)</h2>
     <div class="s-rule"></div>
-    <div class="cell">
-      <div class="lbl">Why the deferral matters</div>
-      <span class="m"><i>Z</i></span> carries two sources of risk: <b>whether</b> (50) reaches 60, and <b>how long</b> (60) then lives. A correct variance must include both — the cross-check below confirms this by conditioning on <span class="m"><i>I</i></span>.
-    </div>
-    <h3>Cross-check by conditioning on survival to 60</h3>
-    <div class="eq" style="font-size:16px">Var(<i>Z</i>) = <i>E</i>[Var(<i>Z</i> | <i>I</i>)] + Var(<i>E</i>[<i>Z</i> | <i>I</i>]) = <i>v</i><sup>20</sup> · <span class="pre">10</span><i>p</i><sub>50</sub> · Var(ä<span class="ang"><i>K</i><sub>60</sub>+1</span>) + (<i>v</i><sup>10</sup> ä<sub>60</sub>)<sup>2</sup> · <span class="pre">10</span><i>p</i><sub>50</sub> · <span class="pre">10</span><i>q</i><sub>50</sub></div>
-    <table class="t">
-      <tr><th>Term</th><th>Working</th><th style="text-align:right">Value</th></tr>
-      <tr><td>Annuity risk</td><td><span class="m">0.285234 × (0.17741 − 0.36913<sup>2</sup>) / 0.00320399 = 0.285234 × 12.8443</span></td><td class="n">3.6636</td></tr>
-      <tr><td>Survival-to-60 risk</td><td><span class="m">(0.558395 × 11.1454)<sup>2</sup> × 0.914777 × 0.085223 = 38.7324 × 0.077960</span></td><td class="n">3.0196</td></tr>
-      <tr class="res"><td>Total</td><td><span class="m">3.6636 + 3.0196</span></td><td class="n">6.683</td></tr>
-    </table>
-
-    <div class="cell trap">
-      <div class="lbl">Common trap</div>
-      Option <b>(b) 3,664</b> is the annuity-risk term alone. It treats survival to 60 as certain and drops the risk of dying during the deferral period.
-    </div>
+    <div class="cell tint src"><div class="lbl">Original question</div>5. Untuk dua kehidupan yang independen (40) dan (60), diberikan bahwa <i>μ<sub>x</sub></i> = 1 / (100 − <i>x</i>), 0 ≤ <i>x</i> ≤ 100. Hitunglah E(<i>T</i><sub>40:60</sub>).<div class="opts"><span><b>a.</b>28</span><span><b>b.</b>31</span><span><b>c.</b>34</span><span><b>d.</b>37</span><span><b>e.</b>40</span></div></div>
+    <p class="en"><b>In English.</b> For independent lives (40) and (60) under De Moivre’s law with ω = 100, find the expected status lifetime.</p>
+    <h3><span class="no">1</span>Single-life expectations under De Moivre (ω = 100)</h3><div class="eq">e̊<sub>40</sub> = (100 − 40)/2 = 30, &nbsp; e̊<sub>60</sub> = (100 − 60)/2 = 20</div><h3><span class="no">2</span>Joint-life expectation</h3><div class="eq">e̊<sub>40:60</sub> = ∫<sub>0</sub><sup>40</sup> (1 − <i>t</i>/60)(1 − <i>t</i>/40) d<i>t</i> = 40 − 40²/120 − 40²/80 + 40³/(3·2400) = 15.556</div><h3><span class="no">3</span>Last-survivor expectation</h3><div class="eq">e̊<sub><span style="text-decoration:overline">40:60</span></sub> = e̊<sub>40</sub> + e̊<sub>60</sub> − e̊<sub>40:60</sub> = 30 + 20 − 15.556 = 34.44</div><div class="cell "><div class="lbl">Which status the options point to</div>The joint-life value, 15.56, is not among the options. Only the <b>last-survivor</b> lifetime, 34.44, matches an option, so the bar over 40:60 appears to have been lost in the question text.</div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>e̊₄₀ + e̊₆₀</td><td>30 + 20</td><td class="n">50</td></tr><tr><td class="s">2</td><td>Joint life</td><td>∫₀⁴⁰ (1 − t/60)(1 − t/40) dt</td><td class="n">15.556</td></tr><tr class="res"><td class="s">3</td><td>Last survivor</td><td>50 − 15.556</td><td class="n">34.44</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>E(T, last survivor) ≈ 34.4</span></div><div class="opts"><span><b>a.</b>28</span><span><b>b.</b>31</span><span class="pick"><b>c.</b>34 ✓</span><span><b>d.</b>37</span><span><b>e.</b>40</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Under De Moivre, single-life e̊ = <b>(ω − x)/2</b>; the last-survivor value is <b>e̊ₓ + e̊ᵧ − e̊ₓᵧ</b>. Result: <b>34.44 ≈ 34</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>2.3</b>Q13 · Cross-check and trap</span><span>Page 6 of 10</span></div>
+  <div class="p-foot"><span><b>Q5</b>Two lives, De Moivre</span><span>Page 6 of 31</span></div>
 </div></div></div>
 </section>
-<section id="section-3">
+<section id="section-2">
 <div class="page" id="page-7" data-page="7"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">03 · Question 14</div>
-    <h2 class="s-title">Premium by normal approximation</h2>
+    <div class="eyebrow">Question 6 · Term insurance from annuities</div>
+    <h2 class="s-title">Term insurance APV</h2>
     <div class="s-rule"></div>
-
-    <div class="cell tint src">
-      <div class="lbl">Original question</div>
-      14. Sebuah perusahaan asuransi mengenakan premi tunggal bersih (<i>net single premium</i>) <i>P</i> untuk masing-masing dari 60 polis anuitas hidup seumur hidup dengan penangguhan 10 tahun sebesar 1 pada (50), yang bersifat <i>fully discrete</i>. Masa hidup dari ke-60 pemegang polis tersebut saling independen. Dengan menggunakan hampiran normal (<i>normal approximation</i>), carilah nilai <i>P</i> sedemikian sehingga peluang perusahaan asuransi mengalami kerugian adalah 20%.
-      <div class="opts"><span><b>a.</b>6,0</span><span><b>b.</b>6,2</span><span><b>c.</b>6,4</span><span><b>d.</b>6,6</span><span><b>e.</b>6,8</span></div>
-    </div>
-    <p><b>In English.</b> An insurer charges a premium <span class="m"><i>P</i></span> for each of 60 independent policies of the same 10-year deferred, fully discrete whole life annuity of 1 on (50). Using the normal approximation, find <span class="m"><i>P</i></span> so that the probability of a loss is 20%.</p>
-
-    <h3><span class="no">1</span>Aggregate present value of benefits</h3>
-    <div class="eq"><i>S</i> = <i>Z</i><sub>1</sub> + <i>Z</i><sub>2</sub> + … + <i>Z</i><sub>60</sub>, &nbsp; <i>E</i>[<i>S</i>] = 60 <i>E</i>[<i>Z</i>], &nbsp; Var(<i>S</i>) = 60 Var(<i>Z</i>)</div>
-    <p class="small muted" style="margin-top:-6px">Variances add because the 60 lifetimes are independent. Each <span class="m"><i>Z</i><sub><i>j</i></sub></span> has the distribution of <span class="m"><i>Z</i></span> from Q13.</p>
-
-    <h3><span class="no">2</span>Define the loss event</h3>
-    <p>Premiums collected are <span class="m">60<i>P</i></span>. The insurer loses money when benefits exceed premiums:</p>
-    <div class="eq">Pr(<i>S</i> &gt; 60<i>P</i>) = 0.20 &nbsp;⇔&nbsp; Pr(<i>S</i> ≤ 60<i>P</i>) = 0.80</div>
-
-    <div class="cell">
-      <div class="lbl">Inputs carried from Q13</div>
-      <span class="m"><i>E</i>[<i>Z</i>] = 5.6932</span> &nbsp;·&nbsp; <span class="m">Var(<i>Z</i>) = 6.6828</span>
-    </div>
+    <div class="cell tint src"><div class="lbl">Original question</div>6. Diberikan:<br>(i) <i>i</i> = 0,07<br>(ii) ä<sub><i>x</i></sub> = 11,7089<br>(iii) ä<sub><i>x</i>:<span class="ang">40</span></sub> = 11,55<br>(iv) ä<sub><i>x</i>+40</sub> = 7,1889<br>Carilah <i>A</i><sup>1</sup><sub><i>x</i>:<span class="ang">40</span></sub>.<div class="opts"><span><b>a.</b>0,1201</span><span><b>b.</b>0,1472</span><span><b>c.</b>0,1722</span><span><b>d.</b>0,1972</span><span><b>e.</b>0,2223</span></div></div>
+    <p class="en"><b>In English.</b> Given i = 0.07 and three annuity values, find the 40-year term insurance APV.</p>
+    <h3><span class="no">1</span>Recover the pure endowment</h3><div class="eq">ä<sub><i>x</i></sub> = ä<sub><i>x</i>:<span class="ang">40</span></sub> + <span class="pre">40</span><i>E</i><sub><i>x</i></sub> ä<sub><i>x</i>+40</sub> &nbsp;⇒&nbsp; <span class="pre">40</span><i>E</i><sub><i>x</i></sub> = <span class="frac"><span>11.7089 − 11.55</span><span>7.1889</span></span></div><h3><span class="no">2</span>Endowment insurance from the temporary annuity</h3><div class="eq"><i>A</i><sub><i>x</i>:<span class="ang">40</span></sub> = 1 − <i>d</i> ä<sub><i>x</i>:<span class="ang">40</span></sub>, &nbsp; <i>d</i> = 0.07/1.07</div><h3><span class="no">3</span>Remove the pure endowment</h3><div class="eq"><i>A</i><sup>1</sup><sub><i>x</i>:<span class="ang">40</span></sub> = <i>A</i><sub><i>x</i>:<span class="ang">40</span></sub> − <span class="pre">40</span><i>E</i><sub><i>x</i></sub></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m"><span class="pre">40</span><i>E</i><sub><i>x</i></sub></span></td><td>0.1589 / 7.1889</td><td class="n">0.022104</td></tr><tr><td class="s">2</td><td><span class="m"><i>d</i></span></td><td>0.07 / 1.07</td><td class="n">0.065421</td></tr><tr><td class="s">3</td><td><span class="m"><i>A</i><sub><i>x</i>:<span class="ang">40</span></sub></span></td><td>1 − 0.065421 × 11.55</td><td class="n">0.244393</td></tr><tr class="res"><td class="s">4</td><td><span class="m"><i>A</i><sup>1</sup><sub><i>x</i>:<span class="ang">40</span></sub></span></td><td>0.244393 − 0.022104</td><td class="n">0.2223</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>A¹ ≈ 0.2223</span></div><div class="opts"><span><b>a.</b>0,1201</span><span><b>b.</b>0,1472</span><span><b>c.</b>0,1722</span><span><b>d.</b>0,1972</span><span class="pick"><b>e.</b>0,2223 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div><b>Endowment = term + pure endowment</b>; get the endowment from <b>1 − d·ä</b> and the pure endowment from the annuity split. Result: <b>0.2223</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>3.1</b>Q14 · Question and model</span><span>Page 7 of 10</span></div>
+  <div class="p-foot"><span><b>Q6</b>Term insurance from annuities</span><span>Page 7 of 31</span></div>
 </div></div></div>
 <div class="page" id="page-8" data-page="8"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">03 · Question 14</div>
-    <h2 class="s-title">Solve for <span class="m" style="font-size:1em"><i>P</i></span></h2>
+    <div class="eyebrow">Question 7 · Select table, UDD</div>
+    <h2 class="s-title">Fractional survival, select age</h2>
     <div class="s-rule"></div>
-    <h3><span class="no">3</span>Apply the normal approximation</h3>
-    <div class="eq"><span class="frac"><span>60<i>P</i> − 60 <i>E</i>[<i>Z</i>]</span><span>√(60 Var(<i>Z</i>))</span></span> = <i>z</i><sub>0.80</sub> = 0.842</div>
-    <p class="small muted" style="margin-top:-6px">From the exam's standard normal table: row <i>p′</i> = 8,0, column 0 gives the 80th percentile, 0,842.</p>
-
-    <h3><span class="no">4</span>Solve for <span class="m"><i>P</i></span></h3>
-    <div class="eq"><i>P</i> = <i>E</i>[<i>Z</i>] + 0.842 · <span class="frac"><span>√(60 Var(<i>Z</i>))</span><span>60</span></span> = <i>E</i>[<i>Z</i>] + 0.842 · √(Var(<i>Z</i>) / 60)</div>
-
-    <h3><span class="no">5</span>Calculation</h3>
-    <table class="t">
-      <tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr>
-      <tr><td class="s">1</td><td><span class="m"><i>E</i>[<i>S</i>]</span></td><td><span class="m">60 × 5.6932</span></td><td class="n">341.591</td></tr>
-      <tr><td class="s">2</td><td><span class="m">Var(<i>S</i>)</span></td><td><span class="m">60 × 6.6828</span></td><td class="n">400.970</td></tr>
-      <tr><td class="s">3</td><td><span class="m">SD(<i>S</i>)</span></td><td><span class="m">√400.970</span></td><td class="n">20.024</td></tr>
-      <tr><td class="s">4</td><td>Safety margin</td><td><span class="m">0.842 × 20.024</span></td><td class="n">16.860</td></tr>
-      <tr><td class="s">5</td><td><span class="m">60<i>P</i></span></td><td><span class="m">341.591 + 16.860</span></td><td class="n">358.451</td></tr>
-      <tr class="res"><td class="s">6</td><td><span class="m"><i>P</i></span></td><td><span class="m">358.451 / 60</span></td><td class="n">5.974</td></tr>
-    </table>
-
-    <div class="cell ans">
-      <div class="lbl">Answer</div>
-      <span class="big"><span class="m" style="font-size:1em"><i>P</i></span> = 5.974 ≈ 6.0 → option (a)</span>
-      <div class="opts"><span class="pick"><b>a.</b>6,0 ✓</span><span><b>b.</b>6,2</span><span><b>c.</b>6,4</span><span><b>d.</b>6,6</span><span><b>e.</b>6,8</span></div>
-    </div>
+    <div class="cell tint src"><div class="lbl">Original question</div>7. Diberikan tabel <i>select-and-ultimate</i> berikut:<table class="mini"><tr><th>x</th><th>q<sub>[x]</sub></th><th>q<sub>[x]+1</sub></th><th>q<sub>x+2</sub></th><th>x+2</th></tr><tr><td>65</td><td>0,11</td><td>0,13</td><td>0,15</td><td>67</td></tr><tr><td>66</td><td>0,12</td><td>0,135</td><td>0,16</td><td>68</td></tr><tr><td>67</td><td>0,13</td><td>0,145</td><td>0,17</td><td>69</td></tr></table>Kematian terdistribusi seragam (<i>uniform</i>) di sepanjang setiap tahun usia.<br>Carilah <sub>1,8</sub><i>p</i><sub>[66]+0,6</sub><div class="opts"><span><b>a.</b>0,69</span><span><b>b.</b>0,71</span><span><b>c.</b>0,73</span><span><b>d.</b>0,75</span><span><b>e.</b>0,77</span></div></div>
+    <p class="en"><b>In English.</b> Find the probability that a life selected at 66, now at duration 0.6, survives 1.8 more years (to duration 2.4), under UDD.</p>
+    <h3><span class="no">1</span>Build a survival column for the life selected at 66 (start at 1)</h3><div class="eq"><i>l</i><sub>[66]</sub> = 1, &nbsp; <i>l</i><sub>[66]+1</sub> = 0.88, &nbsp; <i>l</i><sub>68</sub> = 0.88 × 0.865 = 0.7612</div><h3><span class="no">2</span>Interpolate linearly inside each year (UDD)</h3><div class="eq"><i>l</i><sub>[66]+0.6</sub> = 1 − 0.6 × 0.12 = 0.928, &nbsp; <i>l</i><sub>68.4</sub> = 0.7612 × (1 − 0.4 × 0.16) = 0.712483</div><h3><span class="no">3</span>Ratio</h3><div class="eq"><span class="pre">1.8</span><i>p</i><sub>[66]+0.6</sub> = <span class="frac"><span><i>l</i><sub>68.4</sub></span><span><i>l</i><sub>[66]+0.6</sub></span></span> = <span class="frac"><span>0.712483</span><span>0.928</span></span></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Survive year 1</td><td>1 − 0.12</td><td class="n">0.88</td></tr><tr><td class="s">2</td><td>Survive year 2</td><td>0.88 × (1 − 0.135)</td><td class="n">0.7612</td></tr><tr><td class="s">3</td><td>Alive at 0.6</td><td>1 − 0.6 × 0.12</td><td class="n">0.928</td></tr><tr><td class="s">4</td><td>Alive at 2.4</td><td>0.7612 × (1 − 0.4 × 0.16)</td><td class="n">0.712483</td></tr><tr class="res"><td class="s">5</td><td>Probability</td><td>0.712483 / 0.928</td><td class="n">0.7678</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>≈ 0.768</span></div><div class="opts"><span><b>a.</b>0,69</span><span><b>b.</b>0,71</span><span><b>c.</b>0,73</span><span><b>d.</b>0,75</span><span class="pick"><b>e.</b>0,77 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Follow <b>one select row</b> across the table ([66] → [66]+1 → 68), and use <b>linear l</b> inside each year. Result: <b>0.768 ≈ 0,77</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>3.2</b>Q14 · Solve for P</span><span>Page 8 of 10</span></div>
+  <div class="p-foot"><span><b>Q7</b>Select table, UDD</span><span>Page 8 of 31</span></div>
 </div></div></div>
 <div class="page" id="page-9" data-page="9"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">03 · Question 14</div>
-    <h2 class="s-title">Check and key takeaway</h2>
+    <div class="eyebrow">Question 8 · Fractional-duration reserve</div>
+    <h2 class="s-title">Reserve at 9 months, 3-year endowment</h2>
     <div class="s-rule"></div>
-    <h3>Check: probability of loss at each option</h3>
-    <p class="small muted">Pr(loss) = 1 − Φ( (60<i>P</i> − 341.591) / 20.024 ), using the same normal approximation.</p>
-    <table class="t">
-      <tr><th>Option</th><th style="text-align:right"><span class="m" style="text-transform:none"><i>P</i></span></th><th style="text-align:right">z-score</th><th style="text-align:right">Pr(loss)</th></tr>
-      <tr class="res"><td>a</td><td class="n">6.0</td><td class="n">0.919</td><td class="n">17.9%</td></tr>
-      <tr><td>b</td><td class="n">6.2</td><td class="n">1.519</td><td class="n">6.4%</td></tr>
-      <tr><td>c</td><td class="n">6.4</td><td class="n">2.118</td><td class="n">1.7%</td></tr>
-      <tr><td>d</td><td class="n">6.6</td><td class="n">2.717</td><td class="n">0.3%</td></tr>
-      <tr><td>e</td><td class="n">6.8</td><td class="n">3.316</td><td class="n">&lt; 0.1%</td></tr>
-    </table>
-    <p class="small muted">Only 6.0 lands near the 20% target; every higher option makes a loss far less likely than 20%.</p>
-
-    <div class="cell tint">
-      <div class="lbl">In a Nutshell</div>
-      Premium = <b>expected value</b> per policy plus a <b>safety loading</b> of <span class="m"><i>z</i><sub>0.80</sub> · √(Var(<i>Z</i>)/60)</span> = 0.842 × 0.33374 = 0.281. So <span class="m"><i>P</i></span> = 5.693 + 0.281 = <b>5.974 ≈ 6.0</b>.
-    </div>
+    <div class="cell tint src"><div class="lbl">Original question</div>8. Untuk asuransi endowment (<i>endowment insurance</i>) <i>fully discrete</i> 3 tahun sebesar 1.000 pada (x), diberikan:<br>(i) <i>q<sub>x</sub></i> = 0,1<br>(ii) <i>q</i><sub><i>x</i>+1</sub> = 0,15<br>(iii) <i>v</i> = 0,9<br>(iv) Kematian terdistribusi seragam (<i>uniform</i>) di setiap tahun usia.<br>Hitunglah cadangan manfaat (<i>benefit reserve</i>) 9 bulan setelah penerbitan polis.<div class="opts"><span><b>a.</b>274</span><span><b>b.</b>280</span><span><b>c.</b>283</span><span><b>d.</b>286</span><span><b>e.</b>290</span></div></div>
+    <p class="en"><b>In English.</b> For a fully discrete 3-year endowment of 1,000, find the benefit reserve 9 months after issue under UDD.</p>
+    <h3><span class="no">1</span>Net premium</h3><div class="eq">ä<sub><i>x</i>:<span class="ang">3</span></sub> = 1 + 0.9(0.9) + 0.9²(0.9)(0.85) = 2.42965</div><div class="eq sm">1,000<i>A</i><sub><i>x</i>:<span class="ang">3</span></sub> = 1,000[0.9(0.1) + 0.9²(0.9)(0.15) + 0.9³(0.9)(0.85)] = 757.035</div><h3><span class="no">2</span>Reserve at time 1 by recursion</h3><div class="eq">(0 + <i>P</i>) / <i>v</i> = 1,000 <i>q</i><sub><i>x</i></sub> + <i>p</i><sub><i>x</i></sub> · <sub>1</sub><i>V</i></div><h3><span class="no">3</span>Discount back from time 1 to time 0.75</h3><div class="eq sm"><sub>0.75</sub><i>V</i> = <i>v</i><sup>0.25</sup> [ <sub>0.25</sub><i>q</i><sub><i>x</i>+0.75</sub> · 1,000 + (1 − <sub>0.25</sub><i>q</i><sub><i>x</i>+0.75</sub>) · <sub>1</sub><i>V</i> ], &nbsp; <sub>0.25</sub><i>q</i><sub><i>x</i>+0.75</sub> = <span class="frac"><span>0.25 × 0.1</span><span>1 − 0.75 × 0.1</span></span></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m"><i>P</i></span></td><td>757.035 / 2.42965</td><td class="n">311.582</td></tr><tr><td class="s">2</td><td><span class="m"><sub>1</sub><i>V</i></span></td><td>(311.582 / 0.9 − 100) / 0.9</td><td class="n">273.558</td></tr><tr><td class="s">3</td><td><span class="m"><sub>0.25</sub><i>q</i><sub><i>x</i>+0.75</sub></span></td><td>0.025 / 0.925</td><td class="n">0.027027</td></tr><tr class="res"><td class="s">4</td><td><span class="m"><sub>0.75</sub><i>V</i></span></td><td>0.9<sup>0.25</sup> × [0.027027 × 1,000 + 0.972973 × 273.558]</td><td class="n">285.57</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">d</span>₀.₇₅V ≈ 285.6</span></div><div class="opts"><span><b>a.</b>274</span><span><b>b.</b>280</span><span><b>c.</b>283</span><span class="pick"><b>d.</b>286 ✓</span><span><b>e.</b>290</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>A mid-year reserve is the <b>expected value at t</b> of what happens by year-end: death benefit or the year-end reserve, <b>discounted for 1 − t</b>. Result: <b>285.6 ≈ 286</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>3.3</b>Q14 · Check and takeaway</span><span>Page 9 of 10</span></div>
+  <div class="p-foot"><span><b>Q8</b>Fractional-duration reserve</span><span>Page 9 of 31</span></div>
 </div></div></div>
-</section>
-<section id="section-4">
 <div class="page" id="page-10" data-page="10"><div class="page-frame"><div class="page-canvas">
   <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
   <div class="p-body"><div class="fit">
-    <div class="eyebrow">04 · Summary</div>
-    <h2 class="s-title">Answer key and formula sheet</h2>
+    <div class="eyebrow">Question 9 · Double decrement, UDD</div>
+    <h2 class="s-title">Independent rate q′⁽²⁾₄₅</h2>
     <div class="s-rule"></div>
-
-    <table class="t">
-      <tr><th>Question</th><th>Asked</th><th style="text-align:right">Result</th><th>Option</th></tr>
-      <tr><td>Q13</td><td>Var(<span class="m"><i>Z</i></span>) for the 10-year deferred annuity-due on (50)</td><td class="n">6.6828</td><td><b>(e) 6,683</b></td></tr>
-      <tr><td>Q14</td><td>Premium <span class="m"><i>P</i></span> for 60 policies with a 20% probability of loss</td><td class="n">5.974</td><td><b>(a) 6,0</b></td></tr>
-    </table>
-
-    <h3>Formula sheet</h3>
-    <table class="t">
-      <tr><th>Item</th><th>Formula</th></tr>
-      <tr><td>Present value</td><td><span class="m"><i>Z</i> = <i>v</i><sup>10</sup> · <i>I</i> · ä<span class="ang"><i>K</i><sub>60</sub>+1</span></span></td></tr>
-      <tr><td>First moment</td><td><span class="m"><i>E</i>[<i>Z</i>] = <span class="pre">10</span><i>E</i><sub>50</sub> · ä<sub>60</sub></span></td></tr>
-      <tr><td>Second moment</td><td><span class="m"><i>E</i>[<i>Z</i><sup>2</sup>] = <i>v</i><sup>10</sup> · <span class="pre">10</span><i>E</i><sub>50</sub> · (1 − 2<i>A</i><sub>60</sub> + <sup>2</sup><i>A</i><sub>60</sub>) / <i>d</i><sup>2</sup></span></td></tr>
-      <tr><td>Annuity variance</td><td><span class="m">Var(ä<span class="ang"><i>K</i>+1</span>) = (<sup>2</sup><i>A</i><sub><i>x</i></sub> − <i>A</i><sub><i>x</i></sub><sup>2</sup>) / <i>d</i><sup>2</sup></span></td></tr>
-      <tr><td>Conditional variance</td><td><span class="m">Var(<i>Z</i>) = <i>E</i>[Var(<i>Z</i>|<i>I</i>)] + Var(<i>E</i>[<i>Z</i>|<i>I</i>])</span></td></tr>
-      <tr><td>Portfolio premium</td><td><span class="m"><i>P</i> = <i>E</i>[<i>Z</i>] + <i>z</i><sub>1−α</sub> · √(Var(<i>Z</i>) / <i>n</i>)</span>, here α = 0.20, <span class="m"><i>n</i></span> = 60</td></tr>
-    </table>
-
-    <h3>Exam reminders</h3>
-    <ul class="b">
-      <li>In <span class="m"><i>E</i>[<i>Z</i><sup>2</sup>]</span>, the deferral discount becomes <span class="m"><i>v</i><sup>20</sup></span> but the survival probability stays <span class="m"><span class="pre">10</span><i>p</i><sub>50</sub></span>; that is why <span class="m"><i>v</i><sup>10</sup> · <span class="pre">10</span><i>E</i><sub>50</sub></span> appears.</li>
-      <li>Read <span class="m"><i>A</i><sub>60</sub></span> and <span class="m"><sup>2</sup><i>A</i><sub>60</sub></span> from the table and divide by 1000; do not rebuild them from <span class="m">ä<sub>60</sub></span> when the table already gives them.</li>
-      <li>A 20% probability of loss means the premium sits at the <b>80th</b> percentile of <span class="m"><i>S</i></span>: use <span class="m"><i>z</i></span> = 0.842, not 0.20 or 1.282.</li>
-      <li>Q14 depends on Q13: carry <span class="m"><i>E</i>[<i>Z</i>]</span> and Var(<span class="m"><i>Z</i></span>) unrounded to keep the third decimal of <span class="m"><i>P</i></span> stable.</li>
-    </ul>
+    <div class="cell tint src"><div class="lbl">Original question</div>9. Untuk sebuah tabel penyusutan ganda (<i>double decrement table</i>), diberikan:<table class="mini"><tr><th>Usia x</th><th>l<sub>x</sub><sup>(τ)</sup></th><th>d<sub>x</sub><sup>(1)</sup></th><th>d<sub>x</sub><sup>(2)</sup></th></tr><tr><td>44</td><td>1.000</td><td>70</td><td>55</td></tr><tr><td>45</td><td>?</td><td>65</td><td>?</td></tr><tr><td>46</td><td>750</td><td>?</td><td>?</td></tr></table>Setiap penyusutan (<i>decrement</i>) terdistribusi seragam (<i>uniform</i>) di setiap tahun usia dalam tabel penyusutan ganda tersebut.<br>Hitunglah <i>q</i>′<sub>45</sub><sup>(2)</sup>.<div class="opts"><span><b>a.</b>0,071</span><span><b>b.</b>0,072</span><span><b>c.</b>0,073</span><span><b>d.</b>0,074</span><span><b>e.</b>0,075</span></div></div>
+    <p class="en"><b>In English.</b> Complete the double-decrement table and find the independent rate of decrement 2 at age 45, with UDD in the multiple-decrement table.</p>
+    <h3><span class="no">1</span>Fill in the table</h3><div class="eq"><i>l</i><sub>45</sub><sup>(τ)</sup> = 1,000 − 70 − 55 = 875, &nbsp; <i>d</i><sub>45</sub><sup>(2)</sup> = 875 − 65 − 750 = 60</div><h3><span class="no">2</span>UDD in the multiple-decrement table</h3><div class="eq"><i>q</i>′<sub>45</sub><sup>(2)</sup> = 1 − (<i>p</i><sub>45</sub><sup>(τ)</sup>)<sup><i>q</i><sup>(2)</sup>/<i>q</i><sup>(τ)</sup></sup> = 1 − (<span class="frac"><span>750</span><span>875</span></span>)<sup>60/125</sup></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m"><i>p</i><sub>45</sub><sup>(τ)</sup></span></td><td>750 / 875</td><td class="n">0.857143</td></tr><tr><td class="s">2</td><td><span class="m"><i>q</i><sup>(2)</sup>/<i>q</i><sup>(τ)</sup></span></td><td>60 / 125</td><td class="n">0.48</td></tr><tr class="res"><td class="s">3</td><td><span class="m"><i>q</i>′<sub>45</sub><sup>(2)</sup></span></td><td>1 − 0.857143<sup>0.48</sup></td><td class="n">0.0713</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">a</span>q′⁽²⁾ ≈ 0.0713</span></div><div class="opts"><span class="pick"><b>a.</b>0,071 ✓</span><span><b>b.</b>0,072</span><span><b>c.</b>0,073</span><span><b>d.</b>0,074</span><span><b>e.</b>0,075</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>With UDD in the <b>multiple-decrement</b> table: <b>q′⁽ʲ⁾ = 1 − (p⁽τ⁾)^(q⁽ʲ⁾/q⁽τ⁾)</b>. Result: <b>0.0713 ≈ 0,071</b>.</div>
   </div></div>
-  <div class="p-foot"><span><b>4.1</b>Answer key and formula sheet</span><span>Page 10 of 10</span></div>
+  <div class="p-foot"><span><b>Q9</b>Double decrement, UDD</span><span>Page 10 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-11" data-page="11"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 10 · Reserve recursion</div>
+    <h2 class="s-title">Initial reserve, year h + 1</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>10. Untuk asuransi jiwa seumur hidup (<i>whole life insurance</i>) yang bersifat <i>fully discrete</i> pada (30), diberikan:<br>(i) <i>i</i> = 0,05<br>(ii) <i>q</i><sub>29+<i>h</i></sub> = 0,004<br>(iii) Jumlah bersih yang berisiko (<i>net amount at risk</i>) untuk tahun polis <i>h</i> adalah 1.295.<br>(iv) Cadangan akhir (<i>terminal reserve</i>) untuk tahun polis <i>h</i> − 1 adalah 179.<br>(v) ä<sub>30</sub> = 16,2<br>Hitunglah cadangan awal (<i>initial reserve</i>) untuk tahun polis <i>h</i> + 1.<div class="opts"><span><b>a.</b>188</span><span><b>b.</b>192</span><span><b>c.</b>200</span><span><b>d.</b>204</span><span><b>e.</b>226</span></div></div>
+    <p class="en"><b>In English.</b> For fully discrete whole life on (30), find the initial reserve for policy year h + 1 from the net amount at risk and the prior terminal reserve.</p>
+    <h3><span class="no">1</span>Unknown face amount b: net amount at risk and premium</h3><div class="eq"><i>b</i> − <sub>h</sub><i>V</i> = 1,295, &nbsp; <i>P</i> = <i>b</i> ( <span class="frac"><span>1</span><span>ä<sub>30</sub></span></span> − <i>d</i> )</div><h3><span class="no">2</span>Recursion over policy year h (age 29 + h)</h3><div class="eq">( <sub>h−1</sub><i>V</i> + <i>P</i> )(1 + <i>i</i>) = <sub>h</sub><i>V</i> + <i>q</i><sub>29+h</sub> ( <i>b</i> − <sub>h</sub><i>V</i> )</div><div class="eq">( 179 + <i>P</i> )(1 + 0.05) = (<i>b</i> − 1,295) + 0.004 × 1,295</div><h3><span class="no">3</span>Initial reserve for policy year h + 1</h3><div class="eq">initial reserve = <sub>h</sub><i>V</i> + <i>P</i></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Premium rate per 1 of b</td><td>1/16.2 − 0.05/1.05</td><td class="n">0.014109</td></tr><tr><td class="s">2</td><td>Solve for b</td><td>(179 × 1.05 + 1,295 − 5.18) / (1 − 0.014109 × 1.05)</td><td class="n">1,500.0</td></tr><tr><td class="s">3</td><td><span class="m"><i>P</i></span></td><td>1,500 × 0.014109</td><td class="n">21.16</td></tr><tr><td class="s">4</td><td><span class="m"><sub>h</sub><i>V</i></span></td><td>1,500 − 1,295</td><td class="n">205.0</td></tr><tr class="res"><td class="s">5</td><td>Initial reserve, year h + 1</td><td>205.0 + 21.16</td><td class="n">226.2</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>≈ 226</span></div><div class="opts"><span><b>a.</b>188</span><span><b>b.</b>192</span><span><b>c.</b>200</span><span><b>d.</b>204</span><span class="pick"><b>e.</b>226 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Two unknowns, <b>b</b> and <b>ₕV</b>, are linked by the <b>net amount at risk</b>; one recursion pins down b = <b>1,500</b>. Then initial reserve = <b>ₕV + P = 226</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q10</b>Reserve recursion</span><span>Page 11 of 31</span></div>
+</div></div></div>
+</section>
+<section id="section-3">
+<div class="page" id="page-12" data-page="12"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 11 · Piecewise force, limited lifetime</div>
+    <h2 class="s-title">E[min(T, 2)]</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>11. Diberikan:<br>(i) <i>μ</i><sub><i>x</i>+<i>t</i></sub> = 0,02 untuk 0 ≤ <i>t</i> &lt; 1; = 0,07 untuk 1 ≤ <i>t</i> &lt; 2<br>(ii) <i>Y</i> = min(<i>T<sub>x</sub></i>, 2).<br>Hitunglah E(<i>Y</i>).<div class="opts"><span><b>a.</b>1,88</span><span><b>b.</b>1,90</span><span><b>c.</b>1,92</span><span><b>d.</b>1,94</span><span><b>e.</b>1,96</span></div></div>
+    <p class="en"><b>In English.</b> With a piecewise-constant force of mortality, find the expected value of the lifetime capped at 2.</p>
+    <h3><span class="no">1</span>Expected capped lifetime = integral of the survival function</h3><div class="eq sm">E[<i>Y</i>] = e̊<sub><i>x</i>:<span class="ang">2</span></sub> = ∫<sub>0</sub><sup>2</sup> <sub>t</sub><i>p</i><sub><i>x</i></sub> d<i>t</i> = ∫<sub>0</sub><sup>1</sup> <i>e</i><sup>−0.02<i>t</i></sup> d<i>t</i> + <i>e</i><sup>−0.02</sup> ∫<sub>0</sub><sup>1</sup> <i>e</i><sup>−0.07<i>s</i></sup> d<i>s</i></div><h3><span class="no">2</span>Evaluate each piece</h3><div class="eq">∫<sub>0</sub><sup>1</sup> <i>e</i><sup>−<i>μt</i></sup> d<i>t</i> = <span class="frac"><span>1 − <i>e</i><sup>−<i>μ</i></sup></span><span><i>μ</i></span></span></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Year 1</td><td>(1 − e<sup>−0.02</sup>) / 0.02</td><td class="n">0.990066</td></tr><tr><td class="s">2</td><td>Survive to 1</td><td>e<sup>−0.02</sup></td><td class="n">0.980199</td></tr><tr><td class="s">3</td><td>Year 2</td><td>0.980199 × (1 − e<sup>−0.07</sup>) / 0.07</td><td class="n">0.946678</td></tr><tr class="res"><td class="s">4</td><td>E[Y]</td><td>0.990066 + 0.946678</td><td class="n">1.9367</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">d</span>E[Y] ≈ 1.937</span></div><div class="opts"><span><b>a.</b>1,88</span><span><b>b.</b>1,90</span><span><b>c.</b>1,92</span><span class="pick"><b>d.</b>1,94 ✓</span><span><b>e.</b>1,96</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div><b>E[min(T, n)] = ∫₀ⁿ ₜp dt</b>; with constant force on each piece, each year gives <b>(1 − e^(−μ))/μ</b> times survival to its start. Result: <b>1.937 ≈ 1,94</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q11</b>Piecewise force, limited lifetime</span><span>Page 12 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-13" data-page="13"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 12 · Joint and reversionary annuity</div>
+    <h2 class="s-title">APV of a couple’s benefit package</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>12. Seorang pria berusia 30 tahun dan seorang wanita berusia 25 tahun membeli anuitas <i>joint life</i> yang bersifat <i>fully discrete</i> beserta ketentuan asuransi <i>joint life</i>. Diberikan:<br>(i) <i>i</i> = 0,06<br>(ii) Mortalitas mengikuti Illustrative Life Table.<br>(iii) Masa hidup pria dan wanita tersebut saling independen.<br>(iv) ä<sub>30:25</sub><sup>m f</sup> = 15,22827, dengan <i>m</i> menyatakan pria berusia 30 dan <i>f</i> menyatakan wanita berusia 25.<br>(v) Manfaat pada program ini adalah:<br>&nbsp;&nbsp;(1) 320 pada awal setiap tahun selama keduanya masih hidup<br>&nbsp;&nbsp;(2) 10.000 pada akhir tahun terjadinya kematian pertama<br>&nbsp;&nbsp;(3) 120 pada awal setiap tahun setelah kematian pertama hingga kematian kedua.<br>Hitunglah nilai sekarang aktuaria (<i>actuarial present value</i>) dari manfaat tersebut.<div class="opts"><span><b>a.</b>1.380</span><span><b>b.</b>5.070</span><span><b>c.</b>6.450</span><span><b>d.</b>7.500</span><span><b>e.</b>10.100</span></div></div>
+    <p class="en"><b>In English.</b> Find the APV of 320 a year while both live, 10,000 at the first death, and 120 a year between the first and second deaths.</p>
+    <h3><span class="no">1</span>Value each benefit</h3><div class="eq sm">APV = 320 ä<sub>30:25</sub> + 10,000 <i>A</i><sub>30:25</sub> + 120 ( ä<sub>30</sub> + ä<sub>25</sub> − 2ä<sub>30:25</sub> )</div><ul class="b"><li>First-death insurance: <span class="m"><i>A</i><sub>30:25</sub> = 1 − <i>d</i> ä<sub>30:25</sub></span>.</li><li>“After first death until second death” = last-survivor minus joint: <span class="m">ä<sub>30</sub> + ä<sub>25</sub> − 2ä<sub>30:25</sub></span>.</li><li>Illustrative Life Table: <span class="m">ä<sub>30</sub></span> = 15.8561, <span class="m">ä<sub>25</sub></span> = 16.2242; <span class="m"><i>d</i></span> = 0.06/1.06.</li></ul><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Joint annuity, 320</td><td>320 × 15.22827</td><td class="n">4,873.05</td></tr><tr><td class="s">2</td><td><span class="m"><i>A</i><sub>30:25</sub></span></td><td>1 − 0.056604 × 15.22827</td><td class="n">0.138022</td></tr><tr><td class="s">3</td><td>First-death benefit</td><td>10,000 × 0.138022</td><td class="n">1,380.22</td></tr><tr><td class="s">4</td><td>Reversionary annuity, 120</td><td>120 × (15.8561 + 16.2242 − 2 × 15.22827)</td><td class="n">194.85</td></tr><tr class="res"><td class="s">5</td><td>APV</td><td>4,873.05 + 1,380.22 + 194.85</td><td class="n">6,448.1</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>APV ≈ 6,448</span></div><div class="opts"><span><b>a.</b>1.380</span><span><b>b.</b>5.070</span><span class="pick"><b>c.</b>6.450 ✓</span><span><b>d.</b>7.500</span><span><b>e.</b>10.100</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Joint annuity + <b>1 − d·äₓᵧ</b> for first death + <b>(äₓ + äᵧ − 2äₓᵧ)</b> for “between deaths”. Result: <b>6,448 ≈ 6.450</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q12</b>Joint and reversionary annuity</span><span>Page 13 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-14" data-page="14"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 13 · Deferred annuity variance</div>
+    <h2 class="s-title">Var(Z), 10-year deferred annuity on (50)</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>Untuk Soal 13 dan 14, perhatikan sebuah anuitas hidup seumur hidup (<i>whole life annuity</i>) sebesar 1 dengan penangguhan (<i>deferred</i>) 10 tahun, yang bersifat <i>fully discrete</i>, pada (50). Diberikan: (i) Mortalitas mengikuti Illustrative Life Table. (ii) <i>i</i> = 0,06 (iii) Nilai sekarang dari manfaat di masa depan adalah <i>Z</i> = 0, jika <i>K</i><sub>50</sub> ≤ 9; <i>Z</i> = <i>v</i><sup>10</sup> ä<span class="ang"><i>K</i><sub>50</sub>−9</span>, jika <i>K</i><sub>50</sub> ≥ 10.<br><br>13. Hitunglah varians dari <i>Z</i>.<div class="opts"><span><b>a.</b>0,485</span><span><b>b.</b>3,664</span><span><b>c.</b>4,149</span><span><b>d.</b>4,634</span><span><b>e.</b>6,683</span></div></div>
+    <p class="en"><b>In English.</b> Find the variance of the present value of a 10-year deferred, fully discrete whole life annuity-due of 1 on (50) (Illustrative Life Table, 6%).</p>
+    <h3><span class="no">1</span>Write Z as a deferral factor times an annuity on (60)</h3><div class="eq"><i>Z</i> = <i>v</i><sup>10</sup> · <i>I</i> · ä<span class="ang"><i>K</i><sub>60</sub>+1</span>, &nbsp; <i>I</i> = 1 with probability <span class="pre">10</span><i>p</i><sub>50</sub></div><h3><span class="no">2</span>Moments: square the discount, not the survival probability</h3><div class="eq sm">E[<i>Z</i>] = <span class="pre">10</span><i>E</i><sub>50</sub> ä<sub>60</sub>, &nbsp; E[<i>Z</i><sup>2</sup>] = <i>v</i><sup>10</sup> · <span class="pre">10</span><i>E</i><sub>50</sub> · <span class="frac"><span>1 − 2<i>A</i><sub>60</sub> + <sup>2</sup><i>A</i><sub>60</sub></span><span><i>d</i><sup>2</sup></span></span></div><p class="small muted">Illustrative Life Table: <span class="m"><span class="pre">10</span><i>E</i><sub>50</sub></span> = 0.51081, <span class="m">ä<sub>60</sub></span> = 11.1454, <span class="m"><i>A</i><sub>60</sub></span> = 0.36913, <span class="m"><sup>2</sup><i>A</i><sub>60</sub></span> = 0.17741; <span class="m"><i>v</i><sup>10</sup></span> = 0.558395, <span class="m"><i>d</i></span> = 0.0566038.</p><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m">E[ä<sup>2</sup>] on (60)</span></td><td>(1 − 0.73826 + 0.17741) / 0.0566038²</td><td class="n">137.0636</td></tr><tr><td class="s">2</td><td><span class="m">E[<i>Z</i><sup>2</sup>]</span></td><td>0.558395 × 0.51081 × 137.0636</td><td class="n">39.0951</td></tr><tr><td class="s">3</td><td><span class="m">E[<i>Z</i>]</span></td><td>0.51081 × 11.1454</td><td class="n">5.6932</td></tr><tr class="res"><td class="s">4</td><td><span class="m">Var(<i>Z</i>)</span></td><td>39.0951 − 5.6932²</td><td class="n">6.6828</td></tr></table><div class="cell "><div class="lbl">Cross-check and trap</div>Conditioning on survival to 60: annuity risk 0.285234 × 12.8443 = <b>3.6636</b> plus survival-to-60 risk (0.558395 × 11.1454)² × 0.914777 × 0.085223 = <b>3.0196</b>; total <b>6.683</b>. Option (b) 3,664 is the annuity-risk term alone.</div>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>Var(Z) ≈ 6.683</span></div><div class="opts"><span><b>a.</b>0,485</span><span><b>b.</b>3,664</span><span><b>c.</b>4,149</span><span><b>d.</b>4,634</span><span class="pick"><b>e.</b>6,683 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Square the <b>discount</b> <span class="m"><i>v</i><sup>10</sup></span>, never the <b>survival probability</b>. Result: <b>6.683</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q13</b>Deferred annuity variance</span><span>Page 14 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-15" data-page="15"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 14 · Normal approximation premium</div>
+    <h2 class="s-title">Premium P for 60 policies, 20% loss</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>Untuk Soal 13 dan 14, perhatikan sebuah anuitas hidup seumur hidup (<i>whole life annuity</i>) sebesar 1 dengan penangguhan (<i>deferred</i>) 10 tahun, yang bersifat <i>fully discrete</i>, pada (50). Diberikan: (i) Mortalitas mengikuti Illustrative Life Table. (ii) <i>i</i> = 0,06 (iii) Nilai sekarang dari manfaat di masa depan adalah <i>Z</i> = 0, jika <i>K</i><sub>50</sub> ≤ 9; <i>Z</i> = <i>v</i><sup>10</sup> ä<span class="ang"><i>K</i><sub>50</sub>−9</span>, jika <i>K</i><sub>50</sub> ≥ 10.<br><br>14. Sebuah perusahaan asuransi mengenakan premi tunggal bersih (<i>net single premium</i>) <i>P</i> untuk masing-masing dari 60 polis anuitas hidup seumur hidup dengan penangguhan 10 tahun sebesar 1 pada (50), yang bersifat <i>fully discrete</i>. Masa hidup dari ke-60 pemegang polis tersebut saling independen. Dengan menggunakan hampiran normal (<i>normal approximation</i>), carilah nilai <i>P</i> sedemikian sehingga peluang perusahaan asuransi mengalami kerugian adalah 20%.<div class="opts"><span><b>a.</b>6,0</span><span><b>b.</b>6,2</span><span><b>c.</b>6,4</span><span><b>d.</b>6,6</span><span><b>e.</b>6,8</span></div></div>
+    <p class="en"><b>In English.</b> For 60 independent policies of the Q13 annuity, find the single premium P so that the probability of loss is 20% under the normal approximation.</p>
+    <h3><span class="no">1</span>Aggregate benefits (independent lives)</h3><div class="eq"><i>S</i> = <i>Z</i><sub>1</sub> + … + <i>Z</i><sub>60</sub>, &nbsp; E[<i>S</i>] = 60 × 5.6932, &nbsp; Var(<i>S</i>) = 60 × 6.6828</div><h3><span class="no">2</span>Loss probability 20% ⇒ premium at the 80th percentile</h3><div class="eq">Pr(<i>S</i> &gt; 60<i>P</i>) = 0.20 &nbsp;⇒&nbsp; <span class="frac"><span>60<i>P</i> − E[<i>S</i>]</span><span>SD(<i>S</i>)</span></span> = <i>z</i><sub>0.80</sub> = 0.842</div><p class="small muted">Exam normal table: row <i>p′</i> = 8,0, column 0 gives 0,842.</p><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m">E[<i>S</i>]</span></td><td>60 × 5.6932</td><td class="n">341.591</td></tr><tr><td class="s">2</td><td><span class="m">SD(<i>S</i>)</span></td><td>√(60 × 6.6828)</td><td class="n">20.024</td></tr><tr><td class="s">3</td><td><span class="m">60<i>P</i></span></td><td>341.591 + 0.842 × 20.024</td><td class="n">358.451</td></tr><tr class="res"><td class="s">4</td><td><span class="m"><i>P</i></span></td><td>358.451 / 60</td><td class="n">5.974</td></tr></table><table class="t"><tr><th>Option</th><th style="text-align:right">P</th><th style="text-align:right">Pr(loss)</th><th>Option</th><th style="text-align:right">P</th><th style="text-align:right">Pr(loss)</th></tr><tr class="res"><td>a</td><td class="n">6.0</td><td class="n">17.9%</td><td>d</td><td class="n">6.6</td><td class="n">0.3%</td></tr><tr><td>b</td><td class="n">6.2</td><td class="n">6.4%</td><td>e</td><td class="n">6.8</td><td class="n">&lt; 0.1%</td></tr><tr><td>c</td><td class="n">6.4</td><td class="n">1.7%</td><td></td><td></td><td></td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">a</span>P ≈ 5.974</span></div><div class="opts"><span class="pick"><b>a.</b>6,0 ✓</span><span><b>b.</b>6,2</span><span><b>c.</b>6,4</span><span><b>d.</b>6,6</span><span><b>e.</b>6,8</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Premium = <b>mean</b> + <b>z₀.₈₀ · √(Var(Z)/60)</b> = 5.693 + 0.281 = <b>5.974 ≈ 6,0</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q14</b>Normal approximation premium</span><span>Page 15 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-16" data-page="16"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 15 · Multi-state joint life</div>
+    <h2 class="s-title">5-year joint-life insurance, dependent lives</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>15. Diberikan model berikut untuk dua kehidupan yang saling bergantung (<i>dependent lives</i>):<br>State 0: (x) dan (y) keduanya masih hidup<br>State 1: (x) masih hidup, tetapi (y) sudah meninggal<br>State 2: (x) sudah meninggal, tetapi (y) masih hidup<br>State 3: (x) dan (y) keduanya sudah meninggal<br><i>forces of transition</i> adalah <i>μ</i><sup>01</sup><sub><i>x</i>+<i>t</i>:<i>y</i>+<i>t</i></sub> = 0,04; <i>μ</i><sup>02</sup><sub><i>x</i>+<i>t</i>:<i>y</i>+<i>t</i></sub> = 0,07; <i>μ</i><sup>03</sup><sub><i>x</i>+<i>t</i>:<i>y</i>+<i>t</i></sub> = 0,03; <i>μ</i><sup>13</sup><sub><i>x</i>+<i>t</i></sub> = <i>μ</i><sup>23</sup><sub><i>y</i>+<i>t</i></sub> = 0,1, <i>t</i> ≥ 0<br>Gaya bunga konstan adalah <i>δ</i> = 0,06.<br>Sebuah asuransi <i>joint-life fully continuous</i> 5 tahun sebesar 100 pada (x) dan (y) membayar 1 pada saat kematian pertama dari (x) dan (y), jika hal itu terjadi dalam 5 tahun dan (x) serta (y) tidak meninggal pada saat yang bersamaan.<br>Hitunglah nilai sekarang aktuaria (<i>expected present value</i>) dari asuransi tersebut.<div class="opts"><span><b>a.</b>22,1</span><span><b>b.</b>34,8</span><span><b>c.</b>44,2</span><span><b>d.</b>55,6</span><span><b>e.</b>75,2</span></div></div>
+    <p class="en"><b>In English.</b> Find the EPV of 100 paid at the first death within 5 years, excluding simultaneous deaths, in a common-shock multi-state model.</p>
+    <h3><span class="no">1</span>Stay in state 0, then move to state 1 or 2</h3><div class="eq"><i>μ</i><sub>0•</sub> = 0.04 + 0.07 + 0.03 = 0.14, &nbsp; benefit transitions 0→1 and 0→2: 0.04 + 0.07 = 0.11</div><h3><span class="no">2</span>EPV with constant forces</h3><div class="eq">EPV = 100 ∫<sub>0</sub><sup>5</sup> <i>e</i><sup>−0.06<i>t</i></sup> <i>e</i><sup>−0.14<i>t</i></sup> (0.11) d<i>t</i> = 100 · <span class="frac"><span>0.11</span><span>0.20</span></span> (1 − <i>e</i><sup>−1</sup>)</div><p class="small muted">The forces out of states 1 and 2 (0.1) do not matter: payment happens on leaving state 0.</p><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Total force out of 0</td><td>0.04 + 0.07 + 0.03</td><td class="n">0.14</td></tr><tr><td class="s">2</td><td>Discount + decrement</td><td>0.06 + 0.14</td><td class="n">0.20</td></tr><tr><td class="s">3</td><td>1 − e<sup>−0.20×5</sup></td><td>1 − e<sup>−1</sup></td><td class="n">0.632121</td></tr><tr class="res"><td class="s">4</td><td>EPV</td><td>100 × 0.55 × 0.632121</td><td class="n">34.77</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">b</span>EPV ≈ 34.8</span></div><div class="opts"><span><b>a.</b>22,1</span><span class="pick"><b>b.</b>34,8 ✓</span><span><b>c.</b>44,2</span><span><b>d.</b>55,6</span><span><b>e.</b>75,2</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Pay only on <b>0→1 or 0→2</b> (not the common shock 0→3), while the life stays in state 0 at rate <b>0.14</b>. Result: <b>34.8</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q15</b>Multi-state joint life</span><span>Page 16 of 31</span></div>
+</div></div></div>
+</section>
+<section id="section-4">
+<div class="page" id="page-17" data-page="17"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 16 · Select table, UDD</div>
+    <h2 class="s-title">Fractional survival, select age</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>16. Diberikan tabel <i>select-and-ultimate</i> sebagai berikut:<table class="mini"><tr><th>x</th><th>q<sub>[x]</sub></th><th>q<sub>[x]+1</sub></th><th>q<sub>x+2</sub></th><th>x+2</th></tr><tr><td>65</td><td>0,11</td><td>0,13</td><td>0,15</td><td>67</td></tr><tr><td>66</td><td>0,12</td><td>0,135</td><td>0,16</td><td>68</td></tr><tr><td>67</td><td>0,13</td><td>0,145</td><td>0,17</td><td>69</td></tr></table>Kematian terdistribusi seragam (UDD) dalam setiap tahun usia.<br>Tentukanlah nilai dari <sub>1,6</sub><i>p</i><sub>[66]+0,4</sub><div class="opts"><span><b>a.</b>0,68</span><span><b>b.</b>0,71</span><span><b>c.</b>0,74</span><span><b>d.</b>0,77</span><span><b>e.</b>0,80</span></div></div>
+    <p class="en"><b>In English.</b> Find the probability that a life selected at 66, now at duration 0.4, survives 1.6 more years (to duration 2), under UDD.</p>
+    <h3><span class="no">1</span>Survival column for the life selected at 66</h3><div class="eq"><i>l</i><sub>[66]</sub> = 1, &nbsp; <i>l</i><sub>[66]+1</sub> = 0.88, &nbsp; <i>l</i><sub>68</sub> = 0.88 × 0.865 = 0.7612</div><h3><span class="no">2</span>UDD inside year 1</h3><div class="eq"><i>l</i><sub>[66]+0.4</sub> = 1 − 0.4 × 0.12 = 0.952</div><h3><span class="no">3</span>Ratio</h3><div class="eq"><span class="pre">1.6</span><i>p</i><sub>[66]+0.4</sub> = <span class="frac"><span><i>l</i><sub>68</sub></span><span><i>l</i><sub>[66]+0.4</sub></span></span> = <span class="frac"><span>0.7612</span><span>0.952</span></span></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Alive at 1</td><td>1 − 0.12</td><td class="n">0.88</td></tr><tr><td class="s">2</td><td>Alive at 2 (age 68)</td><td>0.88 × 0.865</td><td class="n">0.7612</td></tr><tr><td class="s">3</td><td>Alive at 0.4</td><td>1 − 0.4 × 0.12</td><td class="n">0.952</td></tr><tr class="res"><td class="s">4</td><td>Probability</td><td>0.7612 / 0.952</td><td class="n">0.7996</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>≈ 0.800</span></div><div class="opts"><span><b>a.</b>0,68</span><span><b>b.</b>0,71</span><span><b>c.</b>0,74</span><span><b>d.</b>0,77</span><span class="pick"><b>e.</b>0,80 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>The end point is exactly <b>age 68</b>, so only the start needs UDD. Result: <b>0.7996 ≈ 0,80</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q16</b>Select table, UDD</span><span>Page 17 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-18" data-page="18"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 17 · Makeham joint life</div>
+    <h2 class="s-title">Joint-life expectation, (35) and (55)</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>17. Untuk dua kehidupan yang independen (35) dan (55), diberikan:<br>(i) <i>force of mortality</i> diberikan oleh <i>μ<sub>x</sub></i> = (3<sup>0,1<i>x</i></sup> + 25) × 10<sup>−4</sup>.<br>(ii) Peluang bahwa (55) meninggal sebelum (35) adalah 0,875.<br>Hitunglah E(<i>T</i><sub>35:55</sub>).<div class="opts"><span><b>a.</b>10,0</span><span><b>b.</b>12,5</span><span><b>c.</b>15,0</span><span><b>d.</b>17,5</span><span><b>e.</b>20,0</span></div></div>
+    <p class="en"><b>In English.</b> Under a Makeham-type force μₓ = A + Bcˣ with A = 0.0025, find the joint-life expectation given Pr((55) dies first) = 0.875.</p>
+    <h3><span class="no">1</span>Split the force into a constant and a Gompertz part</h3><div class="eq"><i>μ</i><sub><i>x</i></sub> = <i>A</i> + <i>B</i><i>c</i><sup><i>x</i></sup>, &nbsp; <i>A</i> = 0.0025, &nbsp; <i>c</i><sup><i>x</i></sup> = 3<sup>0.1<i>x</i></sup> ⇒ <i>c</i><sup>55</sup>/<i>c</i><sup>35</sup> = 3<sup>2</sup> = 9</div><h3><span class="no">2</span>Probability each life dies first</h3><div class="eq sm">Pr((55) first) = <i>A</i> e̊<sub>35:55</sub> + 9<i>g</i> = 0.875, &nbsp; Pr((35) first) = <i>A</i> e̊<sub>35:55</sub> + <i>g</i> = 0.125</div><p class="small muted">Here <span class="m"><i>g</i> = ∫ <sub>t</sub><i>p</i><sub>35:55</sub> <i>B</i><i>c</i><sup>35+<i>t</i></sup> d<i>t</i></span>. The two probabilities add to 1.</p><h3><span class="no">3</span>Solve</h3><div class="eq">8<i>g</i> = 0.75 ⇒ <i>g</i> = 0.09375, &nbsp; <i>A</i> e̊<sub>35:55</sub> = 0.125 − 0.09375 = 0.03125</div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Gompertz share</td><td>(0.875 − 0.125) / 8</td><td class="n">0.09375</td></tr><tr><td class="s">2</td><td>Makeham share</td><td>0.125 − 0.09375</td><td class="n">0.03125</td></tr><tr class="res"><td class="s">3</td><td>e̊₃₅:₅₅</td><td>0.03125 / 0.0025</td><td class="n">12.5</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">b</span>E(T₃₅:₅₅) = 12.5</span></div><div class="opts"><span><b>a.</b>10,0</span><span class="pick"><b>b.</b>12,5 ✓</span><span><b>c.</b>15,0</span><span><b>d.</b>17,5</span><span><b>e.</b>20,0</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>The Gompertz part splits “who dies first” in the ratio <b>c³⁵ : c⁵⁵ = 1 : 9</b>; the constant A part splits it equally. Result: <b>12.5</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q17</b>Makeham joint life</span><span>Page 18 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-19" data-page="19"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 18 · Thiele’s equation</div>
+    <h2 class="s-title">d/dt (vᵗ ₜV) at t = 5</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>18. Diberikan suatu asuransi berjangka (<i>term insurance</i>) <i>fully continuous</i> 10 tahun sebesar 1.000 pada (50). Diberikan:<br>(i) Premi kontrak (<i>contract premium</i>) adalah 9 per tahun, dibayarkan secara kontinu.<br>(ii) <i>force of mortality</i> mengikuti hukum Makeham dengan <i>A</i> = 0,00022, <i>B</i> = 0,00004, dan <i>c</i> = 1,1.<br>(iii) <i>force of interest</i> adalah 4%.<br>(iv) Biaya (<i>expenses</i>) adalah: − 5% dari premi, dibayarkan secara kontinu; − 20 dibayarkan pada saat kematian<br>(v) Cadangan pada waktu <i>t</i> (<i>time-t reserve</i>), dihitung berdasarkan premi kontrak, dinotasikan <sub>t</sub><i>V</i>.<br>(vi) <sub>5</sub><i>V</i> = 6,46701<br>Hitunglah <span class="m">d/dt</span> <i>v<sup>t</sup></i> <sub>t</sub><i>V</i> pada saat <i>t</i> = 5.<div class="opts"><span><b>a.</b>0,43</span><span><b>b.</b>0,54</span><span><b>c.</b>0,59</span><span><b>d.</b>0,65</span><span><b>e.</b>0,76</span></div></div>
+    <p class="en"><b>In English.</b> Using Thiele’s equation with expenses, find the derivative of the discounted reserve vᵗ ₜV at t = 5.</p>
+    <h3><span class="no">1</span>Thiele’s equation with expenses</h3><div class="eq"><span class="frac"><span>d</span><span>d<i>t</i></span></span> <sub>t</sub><i>V</i> = <i>δ</i> <sub>t</sub><i>V</i> + 0.95<i>G</i> − <i>μ</i><sub>50+<i>t</i></sub> ( 1,000 + 20 − <sub>t</sub><i>V</i> )</div><h3><span class="no">2</span>Derivative of the discounted reserve</h3><div class="eq sm"><span class="frac"><span>d</span><span>d<i>t</i></span></span> ( <i>v</i><sup><i>t</i></sup> <sub>t</sub><i>V</i> ) = <i>v</i><sup><i>t</i></sup> ( <span class="frac"><span>d</span><span>d<i>t</i></span></span><sub>t</sub><i>V</i> − <i>δ</i> <sub>t</sub><i>V</i> ) = <i>v</i><sup><i>t</i></sup> [ 0.95 × 9 − <i>μ</i><sub>50+<i>t</i></sub>(1,020 − <sub>t</sub><i>V</i>) ]</div><h3><span class="no">3</span>Makeham force at age 55</h3><div class="eq"><i>μ</i><sub>55</sub> = 0.00022 + 0.00004 × 1.1<sup>55</sup></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td><span class="m"><i>μ</i><sub>55</sub></span></td><td>0.00022 + 0.00004 × 189.06</td><td class="n">0.007782</td></tr><tr><td class="s">2</td><td>Bracket</td><td>8.55 − 0.007782 × (1,020 − 6.46701)</td><td class="n">0.662316</td></tr><tr><td class="s">3</td><td><span class="m"><i>v</i><sup>5</sup></span></td><td>e<sup>−0.04×5</sup></td><td class="n">0.818731</td></tr><tr class="res"><td class="s">4</td><td>Derivative</td><td>0.818731 × 0.662316</td><td class="n">0.5423</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">b</span>≈ 0.542</span></div><div class="opts"><span><b>a.</b>0,43</span><span class="pick"><b>b.</b>0,54 ✓</span><span><b>c.</b>0,59</span><span><b>d.</b>0,65</span><span><b>e.</b>0,76</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Discounting removes the <b>δ·ₜV</b> term: d/dt(vᵗ ₜV) = <b>vᵗ [net premium after expenses − μ × (benefit + claim expense − ₜV)]</b>. Result: <b>0.542 ≈ 0,54</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q18</b>Thiele’s equation</span><span>Page 19 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-20" data-page="20"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 19 · Reserve recursion</div>
+    <h2 class="s-title">Initial reserve, year h + 1</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>19. Untuk asuransi jiwa seumur hidup diskrit penuh (<i>fully discrete whole life insurance</i>) pada (30), diketahui:<br>(i) <i>i</i> = 0,06<br>(ii) <i>q</i><sub>29+<i>h</i></sub> = 0,005<br>(iii) Jumlah risiko net (<i>net amount at risk</i>) untuk tahun polis <i>h</i> adalah 1.295<br>(iv) Nilai polis terminal untuk tahun polis <i>h</i> − 1 adalah 180<br>(v) ä<sub>30</sub> = 16,4<br>Tentukanlah nilai awal polis (<i>initial reserve</i>) untuk tahun polis ke-<i>h</i> + 1.<div class="opts"><span><b>a.</b>188</span><span><b>b.</b>198</span><span><b>c.</b>208</span><span><b>d.</b>218</span><span><b>e.</b>228</span></div></div>
+    <p class="en"><b>In English.</b> Same structure as Q10 with i = 0.06, q = 0.005, prior terminal reserve 180 and ä₃₀ = 16.4.</p>
+    <h3><span class="no">1</span>Unknown face amount b: net amount at risk and premium</h3><div class="eq"><i>b</i> − <sub>h</sub><i>V</i> = 1,295, &nbsp; <i>P</i> = <i>b</i> ( <span class="frac"><span>1</span><span>ä<sub>30</sub></span></span> − <i>d</i> )</div><h3><span class="no">2</span>Recursion over policy year h (age 29 + h)</h3><div class="eq">( <sub>h−1</sub><i>V</i> + <i>P</i> )(1 + <i>i</i>) = <sub>h</sub><i>V</i> + <i>q</i><sub>29+h</sub> ( <i>b</i> − <sub>h</sub><i>V</i> )</div><div class="eq">( 180 + <i>P</i> )(1 + 0.06) = (<i>b</i> − 1,295) + 0.005 × 1,295</div><h3><span class="no">3</span>Initial reserve for policy year h + 1</h3><div class="eq">initial reserve = <sub>h</sub><i>V</i> + <i>P</i></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Premium rate per 1 of b</td><td>1/16.4 − 0.06/1.06</td><td class="n">0.004372</td></tr><tr><td class="s">2</td><td>Solve for b</td><td>(180 × 1.06 + 1,295 − 6.475) / (1 − 0.004372 × 1.06)</td><td class="n">1,486.2</td></tr><tr><td class="s">3</td><td><span class="m"><i>P</i></span></td><td>1,486.2 × 0.004372</td><td class="n">6.50</td></tr><tr><td class="s">4</td><td><span class="m"><sub>h</sub><i>V</i></span></td><td>1,486.2 − 1,295</td><td class="n">191.2</td></tr><tr class="res"><td class="s">5</td><td>Initial reserve, year h + 1</td><td>191.2 + 6.50</td><td class="n">197.7</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">b</span>≈ 198</span></div><div class="opts"><span><b>a.</b>188</span><span class="pick"><b>b.</b>198 ✓</span><span><b>c.</b>208</span><span><b>d.</b>218</span><span><b>e.</b>228</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Same recipe as Q10: the <b>net amount at risk</b> ties b to ₕV, the recursion gives b, then <b>ₕV + P = 197.7 ≈ 198</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q19</b>Reserve recursion</span><span>Page 20 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-21" data-page="21"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 20 · Piecewise force, limited lifetime</div>
+    <h2 class="s-title">E[min(T, 3)]</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>20. Diketahui:<br>(i) <i>μ</i><sub><i>x</i>+<i>t</i></sub> = 0,03 untuk 0 ≤ <i>t</i> &lt; 1; 0,06 untuk 1 ≤ <i>t</i> &lt; 3<br>(ii) <i>Y</i> = min(<i>T<sub>x</sub></i>, 3)<br>Tentukanlah nilai dari E(<i>Y</i>).<div class="opts"><span><b>a.</b>2,81</span><span><b>b.</b>2,84</span><span><b>c.</b>2,87</span><span><b>d.</b>2,90</span><span><b>e.</b>2,93</span></div></div>
+    <p class="en"><b>In English.</b> With a piecewise-constant force, find the expected lifetime capped at 3.</p>
+    <h3><span class="no">1</span>Integrate the survival function</h3><div class="eq">E[<i>Y</i>] = ∫<sub>0</sub><sup>1</sup> <i>e</i><sup>−0.03<i>t</i></sup> d<i>t</i> + <i>e</i><sup>−0.03</sup> ∫<sub>0</sub><sup>2</sup> <i>e</i><sup>−0.06<i>s</i></sup> d<i>s</i></div><h3><span class="no">2</span>Evaluate</h3><div class="eq">= <span class="frac"><span>1 − <i>e</i><sup>−0.03</sup></span><span>0.03</span></span> + <i>e</i><sup>−0.03</sup> · <span class="frac"><span>1 − <i>e</i><sup>−0.12</sup></span><span>0.06</span></span></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Year 1</td><td>(1 − e<sup>−0.03</sup>) / 0.03</td><td class="n">0.985149</td></tr><tr><td class="s">2</td><td>Survive to 1</td><td>e<sup>−0.03</sup></td><td class="n">0.970446</td></tr><tr><td class="s">3</td><td>Years 2–3</td><td>0.970446 × (1 − e<sup>−0.12</sup>) / 0.06</td><td class="n">1.828959</td></tr><tr class="res"><td class="s">4</td><td>E[Y]</td><td>0.985149 + 1.828959</td><td class="n">2.8141</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">a</span>E[Y] ≈ 2.814</span></div><div class="opts"><span class="pick"><b>a.</b>2,81 ✓</span><span><b>b.</b>2,84</span><span><b>c.</b>2,87</span><span><b>d.</b>2,90</span><span><b>e.</b>2,93</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Same as Q11, but the second piece lasts <b>2 years</b>: (1 − e^(−0.12))/0.06. Result: <b>2.814 ≈ 2,81</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q20</b>Piecewise force, limited lifetime</span><span>Page 21 of 31</span></div>
+</div></div></div>
+</section>
+<section id="section-5">
+<div class="page" id="page-22" data-page="22"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 21 · Conditional loss variance</div>
+    <h2 class="s-title">Var(₁L | K₆₁ ≥ 1)</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>Untuk Soal 21 dan 22, perhatikan sebuah asuransi berjangka meningkat (<i>increasing term insurance</i>) 3 tahun pada (61). (i) <i>q</i><sub>61</sub> = 0,1; <i>q</i><sub>62</sub> = 0,12; <i>q</i><sub>63</sub> = 0,14 (ii) <i>d</i> = 0,06 (iii) Premi manfaat tetap (<i>level benefit premium</i>) dibayarkan pada awal setiap tahun. (iv) Manfaat kematian, dibayarkan pada akhir tahun kematian, adalah <i>b</i><sub><i>k</i>+1</sub> = 100(<i>k</i> + 1), dengan <i>k</i> = 0, 1, 2.<br><br>21. Misalkan <sub><i>k</i></sub><i>L</i> adalah variabel acak kerugian prospektif (<i>prospective loss</i>) pada waktu <i>k</i>. Hitunglah Var(<sub>1</sub><i>L</i> | <i>K</i><sub>61</sub> ≥ 1).<div class="opts"><span><b>a.</b>25</span><span><b>b.</b>29</span><span><b>c.</b>10.555</span><span><b>d.</b>10.778</span><span><b>e.</b>11.120</span></div></div>
+    <p class="en"><b>In English.</b> For the 3-year increasing term on (61), find the variance of the prospective loss at time 1 given survival to time 1.</p>
+    <h3><span class="no">1</span>Level benefit premium (v = 1 − d = 0.94)</h3><div class="eq sm"><i>P</i> = <span class="frac"><span>100(0.94)(0.1) + 200(0.94²)(0.9)(0.12) + 300(0.94³)(0.9)(0.88)(0.14)</span><span>1 + 0.94(0.9) + 0.94²(0.9)(0.88)</span></span> = <span class="frac"><span>56.1143</span><span>2.54581</span></span> = 22.0418</div><h3><span class="no">2</span>Outcomes of ₁L from age 62</h3><table class="t"><tr><th>Outcome</th><th>Probability</th><th style="text-align:right">₁L</th></tr><tr><td>Die in year 2</td><td>q₆₂ = 0.12</td><td class="n">200(0.94) − P = 165.958</td></tr><tr><td>Die in year 3</td><td>p₆₂ q₆₃ = 0.1232</td><td class="n">300(0.94²) − P(1.94) = 222.319</td></tr><tr><td>Survive 2 years</td><td>p₆₂ p₆₃ = 0.7568</td><td class="n">−P(1.94) = −42.761</td></tr></table><h3><span class="no">3</span>Variance</h3><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>E[₁L]</td><td>0.12(165.958) + 0.1232(222.319) + 0.7568(−42.761)</td><td class="n">14.943</td></tr><tr><td class="s">2</td><td>E[₁L²]</td><td>0.12(165.958²) + 0.1232(222.319²) + 0.7568(42.761²)</td><td class="n">10,778.1</td></tr><tr class="res"><td class="s">3</td><td>Var</td><td>10,778.1 − 14.943²</td><td class="n">10,554.8</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>Var ≈ 10,555</span></div><div class="opts"><span><b>a.</b>25</span><span><b>b.</b>29</span><span class="pick"><b>c.</b>10.555 ✓</span><span><b>d.</b>10.778</span><span><b>e.</b>11.120</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>List the <b>three outcomes</b> from age 62 and take E[L²] − E[L]². Option (d) 10.778 is <b>E[L²]</b> without subtracting the mean squared. Result: <b>10,555</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q21</b>Conditional loss variance</span><span>Page 22 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-23" data-page="23"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 22 · Full preliminary term reserve</div>
+    <h2 class="s-title">FPT reserve at end of year 2</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>Untuk Soal 21 dan 22, perhatikan sebuah asuransi berjangka meningkat (<i>increasing term insurance</i>) 3 tahun pada (61). (i) <i>q</i><sub>61</sub> = 0,1; <i>q</i><sub>62</sub> = 0,12; <i>q</i><sub>63</sub> = 0,14 (ii) <i>d</i> = 0,06 (iii) Premi manfaat tetap (<i>level benefit premium</i>) dibayarkan pada awal setiap tahun. (iv) Manfaat kematian, dibayarkan pada akhir tahun kematian, adalah <i>b</i><sub><i>k</i>+1</sub> = 100(<i>k</i> + 1), dengan <i>k</i> = 0, 1, 2.<br><br>22. Hitunglah cadangan pada akhir tahun ke-2 berdasarkan metode <i>full preliminary term</i>.<div class="opts"><span><b>a.</b>9,26</span><span><b>b.</b>12,52</span><span><b>c.</b>24,87</span><span><b>d.</b>28,51</span><span><b>e.</b>30,22</span></div></div>
+    <p class="en"><b>In English.</b> Find the reserve at the end of year 2 under the full preliminary term method.</p>
+    <h3><span class="no">1</span>FPT: year 1 is one-year term; years 2–3 are valued as a policy issued at 62</h3><div class="eq"><i>β</i><sup>FPT</sup> = <span class="frac"><span>200(0.94)(0.12) + 300(0.94²)(0.88)(0.14)</span><span>1 + 0.94(0.88)</span></span></div><h3><span class="no">2</span>Prospective reserve at time 2 (one year left)</h3><div class="eq"><sub>2</sub><i>V</i><sup>FPT</sup> = 300 <i>v</i> <i>q</i><sub>63</sub> − <i>β</i><sup>FPT</sup></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Numerator</td><td>22.56 + 32.6579</td><td class="n">55.2179</td></tr><tr><td class="s">2</td><td>Denominator</td><td>1 + 0.8272</td><td class="n">1.8272</td></tr><tr><td class="s">3</td><td><span class="m"><i>β</i><sup>FPT</sup></span></td><td>55.2179 / 1.8272</td><td class="n">30.2199</td></tr><tr><td class="s">4</td><td>Benefit EPV, year 3</td><td>300 × 0.94 × 0.14</td><td class="n">39.48</td></tr><tr class="res"><td class="s">5</td><td><span class="m"><sub>2</sub><i>V</i><sup>FPT</sup></span></td><td>39.48 − 30.2199</td><td class="n">9.26</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">a</span>₂V(FPT) ≈ 9.26</span></div><div class="opts"><span class="pick"><b>a.</b>9,26 ✓</span><span><b>b.</b>12,52</span><span><b>c.</b>24,87</span><span><b>d.</b>28,51</span><span><b>e.</b>30,22</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Under FPT the reserve from year 2 on is the <b>net premium reserve of a policy issued one year later</b> (at 62, 2-year term). Result: <b>9.26</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q22</b>Full preliminary term reserve</span><span>Page 23 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-24" data-page="24"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 23 · Gain by source</div>
+    <h2 class="s-title">Total year-2 gain</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>23. Untuk asuransi jiwa seumur hidup (<i>whole life insurance</i>) yang bersifat <i>fully discrete</i> sebesar 1.000 pada (x), diberikan:<br>(i) Premi kotor tahunan (<i>annual gross premium</i>) adalah 75. (ii) Manfaat kematian dibayarkan pada akhir tahun kematian. (iii) Nilai-nilai berikut pada tahun ke-2:<table class="mini"><tr><th></th><th>Diperkirakan</th><th>Aktual</th></tr><tr><td>Biaya sebagai persentase premi</td><td>6%</td><td>5%</td></tr><tr><td>Biaya perpanjangan (<i>renewal expense</i>)</td><td>2</td><td>3</td></tr><tr><td>Tingkat bunga efektif tahunan</td><td>4%</td><td>12%</td></tr><tr><td>Peluang kematian <i>q</i><sub><i>x</i>+1</sub><sup>(d)</sup></td><td>0,011</td><td>0,015</td></tr><tr><td>Peluang pengunduran diri <i>q</i><sub><i>x</i>+1</sub><sup>(w)</sup></td><td>0,15</td><td>0,20</td></tr><tr><td>Nilai tunai pada akhir tahun ke-2</td><td>10</td><td>10</td></tr></table>(iv) Nilai harapan dari nilai sekarang variabel acak kerugian di masa depan, berdasarkan nilai yang diasumsikan pada tahun ke-2 dan seterusnya: akhir tahun 1: 61,7; akhir tahun 2: 136,51.<br>Pada akhir tahun ke-2, 2.355 polis asuransi masih berlaku (<i>in-force</i>). Hitunglah total keuntungan dari mortalitas, pengunduran diri, bunga, dan biaya pada tahun ke-2.<div class="opts"><span><b>a.</b>30.633</span><span><b>b.</b>32.690</span><span><b>c.</b>36.511</span><span><b>d.</b>37.804</span><span><b>e.</b>39.022</span></div></div>
+    <p class="en"><b>In English.</b> Find the total year-2 gain from mortality, withdrawal, interest and expenses, given 2,355 policies in force at the end of year 2.</p>
+    <h3><span class="no">1</span>Policies in force at the start of year 2</h3><div class="eq"><i>N</i> = <span class="frac"><span>2,355</span><span>1 − 0.015 − 0.20</span></span> = 3,000</div><h3><span class="no">2</span>Year-2 profit per policy on each basis</h3><div class="eq sm">Profit = ( <sub>1</sub><i>V</i> + <i>G</i> − <i>e</i> )(1 + <i>i</i>) − <i>q</i><sup>(d)</sup> · 1,000 − <i>q</i><sup>(w)</sup> · CV − <i>p</i><sup>(τ)</sup> · <sub>2</sub><i>V</i></div><table class="t"><tr><th>Item</th><th style="text-align:right">Expected</th><th style="text-align:right">Actual</th></tr><tr><td>Fund after expenses: 61.7 + 75 − %·75 − renewal</td><td class="n">130.20</td><td class="n">129.95</td></tr><tr><td>× (1 + i)</td><td class="n">135.408</td><td class="n">145.544</td></tr><tr><td>− death 1,000q<sup>(d)</sup></td><td class="n">−11.000</td><td class="n">−15.000</td></tr><tr><td>− withdrawal 10q<sup>(w)</sup></td><td class="n">−1.500</td><td class="n">−2.000</td></tr><tr><td>− p<sup>(τ)</sup> × 136.51</td><td class="n">−114.532</td><td class="n">−107.160</td></tr><tr class="res"><td>Profit per policy</td><td class="n">8.376</td><td class="n">21.384</td></tr></table><h3><span class="no">3</span>Total gain from all four sources</h3><div class="eq">Gain = 3,000 × (21.384 − 8.376)</div>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>≈ 39,022</span></div><div class="opts"><span><b>a.</b>30.633</span><span><b>b.</b>32.690</span><span><b>c.</b>36.511</span><span><b>d.</b>37.804</span><span class="pick"><b>e.</b>39.022 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>The four gains together equal <b>actual profit − expected profit</b>, so the order of attribution does not matter for the total. Back out <b>3,000</b> starting policies. Result: <b>39,022</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q23</b>Gain by source</span><span>Page 24 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-25" data-page="25"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 24 · Combining insurance variances</div>
+    <h2 class="s-title">SD of whole life Z₃</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>24. Untuk tiga polis asuransi pada kehidupan yang sama, diberikan:<br>(i) <i>Z</i><sub>1</sub> adalah nilai sekarang dari asuransi berjangka (<i>term insurance</i>) 20 tahun dengan uang pertanggungan 200, dibayarkan pada akhir tahun kematian, dengan E[<i>Z</i><sub>1</sub>] = 6,6 dan V[<i>Z</i><sub>1</sub>] = 748.<br>(ii) <i>Z</i><sub>2</sub> adalah nilai sekarang dari asuransi jiwa seumur hidup dengan penangguhan (<i>deferred</i>) 20 tahun dengan uang pertanggungan 1.000, dibayarkan pada akhir tahun kematian, dengan E[<i>Z</i><sub>2</sub>] = 107,5 dan V[<i>Z</i><sub>2</sub>] = 5.078.<br>(iii) <i>Z</i><sub>3</sub> adalah nilai sekarang dari asuransi jiwa seumur hidup dengan uang pertanggungan 2.000, dibayarkan pada akhir tahun kematian.<br>Hitunglah nilai simpangan baku dari <i>Z</i><sub>3</sub>.<div class="opts"><span><b>a.</b>230</span><span><b>b.</b>246</span><span><b>c.</b>258</span><span><b>d.</b>270</span><span><b>e.</b>281</span></div></div>
+    <p class="en"><b>In English.</b> Combine a 20-year term (200) and a 20-year deferred whole life (1,000) to get the standard deviation of whole life of 2,000.</p>
+    <h3><span class="no">1</span>Rescale to 2,000 of cover</h3><div class="eq"><i>Z</i><sub>3</sub> = 10 <i>Z</i><sub>1</sub> + 2 <i>Z</i><sub>2</sub></div><h3><span class="no">2</span>Term and deferred never pay together</h3><div class="eq"><i>Z</i><sub>1</sub><i>Z</i><sub>2</sub> = 0 &nbsp;⇒&nbsp; Cov(<i>Z</i><sub>1</sub>, <i>Z</i><sub>2</sub>) = −E[<i>Z</i><sub>1</sub>]E[<i>Z</i><sub>2</sub>] = −6.6 × 107.5 = −709.5</div><h3><span class="no">3</span>Variance</h3><div class="eq">Var(<i>Z</i><sub>3</sub>) = 100 Var(<i>Z</i><sub>1</sub>) + 4 Var(<i>Z</i><sub>2</sub>) + 2(10)(2) Cov(<i>Z</i><sub>1</sub>, <i>Z</i><sub>2</sub>)</div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>100 Var(Z₁)</td><td>100 × 748</td><td class="n">74,800</td></tr><tr><td class="s">2</td><td>4 Var(Z₂)</td><td>4 × 5,078</td><td class="n">20,312</td></tr><tr><td class="s">3</td><td>40 Cov</td><td>40 × (−709.5)</td><td class="n">−28,380</td></tr><tr><td class="s">4</td><td>Var(Z₃)</td><td>74,800 + 20,312 − 28,380</td><td class="n">66,732</td></tr><tr class="res"><td class="s">5</td><td>SD(Z₃)</td><td>√66,732</td><td class="n">258.3</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>SD ≈ 258</span></div><div class="opts"><span><b>a.</b>230</span><span><b>b.</b>246</span><span class="pick"><b>c.</b>258 ✓</span><span><b>d.</b>270</span><span><b>e.</b>281</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Term and deferred pieces are <b>mutually exclusive</b>, so their covariance is <b>−E[Z₁]E[Z₂]</b>, which is negative. Result: <b>258</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q24</b>Combining insurance variances</span><span>Page 25 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-26" data-page="26"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 25 · Percentile of a PV variable</div>
+    <h2 class="s-title">75th percentile of Z</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>25. Stephanie saat ini berusia 30 tahun, dan masa depannya memiliki fungsi distribusi kumulatif berikut: <i>F</i><sub>30</sub>(<i>t</i>) = 1 − (1 + 0,05<i>t</i>)<i>e</i><sup>−0,05<i>t</i></sup>. Misalkan <i>Z</i> adalah peubah acak nilai sekarang untuk asuransi jiwa kontinu penuh (<i>fully continuous life insurance</i>) yang membayar 250 segera pada saat kematian Stephanie, dengan ketentuan bahwa ia meninggal antara usia 40 dan 65. Tingkat bunga (<i>force of interest</i>) adalah 0,06. Tentukan persentil ke-75 dari <i>Z</i>.<div class="opts"><span><b>a.</b>0</span><span><b>b.</b>15</span><span><b>c.</b>27</span><span><b>d.</b>44</span><span><b>e.</b>59</span></div></div>
+    <p class="en"><b>In English.</b> Z pays 250 at death if death occurs between ages 40 and 65 (10 &lt; T &lt; 35). Find the 75th percentile of Z.</p>
+    <h3><span class="no">1</span>Probability mass at Z = 0</h3><div class="eq sm">Pr(<i>Z</i> = 0) = <i>F</i>(10) + <i>S</i>(35) = [1 − 1.5<i>e</i><sup>−0.5</sup>] + 2.75<i>e</i><sup>−1.75</sup> = 0.0902 + 0.4779 = 0.5681</div><p>Because 0.5681 &lt; 0.75, the 75th percentile is a positive value of <span class="m"><i>Z</i> = 250<i>e</i><sup>−0.06<i>T</i></sup></span>, which falls as <i>T</i> rises.</p><h3><span class="no">2</span>Find the time t* with Pr(Z ≤ z) = 0.75</h3><div class="eq">Pr(<i>Z</i> ≤ <i>z</i>) = <i>F</i>(10) + <i>S</i>(<i>t</i>*) = 0.75 &nbsp;⇒&nbsp; (1 + 0.05<i>t</i>*)<i>e</i><sup>−0.05<i>t</i>*</sup> = 0.6598</div><h3><span class="no">3</span>Convert to Z</h3><div class="eq"><i>z</i><sub>0.75</sub> = 250 <i>e</i><sup>−0.06<i>t</i>*</sup></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>F(10)</td><td>1 − 1.5e<sup>−0.5</sup></td><td class="n">0.0902</td></tr><tr><td class="s">2</td><td>S(35)</td><td>2.75e<sup>−1.75</sup></td><td class="n">0.4779</td></tr><tr><td class="s">3</td><td>Target S(t*)</td><td>0.75 − 0.0902</td><td class="n">0.6598</td></tr><tr><td class="s">4</td><td>Solve t*</td><td>(1 + 0.05t)e<sup>−0.05t</sup> = 0.6598</td><td class="n">24.157</td></tr><tr class="res"><td class="s">5</td><td>z₀.₇₅</td><td>250e<sup>−0.06×24.157</sup></td><td class="n">58.7</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>z₀.₇₅ ≈ 58.7</span></div><div class="opts"><span><b>a.</b>0</span><span><b>b.</b>15</span><span><b>c.</b>27</span><span><b>d.</b>44</span><span class="pick"><b>e.</b>59 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Z = 0 carries <b>56.8%</b> of the probability (death before 40 or after 65); the remaining percentile comes from the <b>later death times</b>, since Z falls as T rises. Result: <b>58.7 ≈ 59</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q25</b>Percentile of a PV variable</span><span>Page 26 of 31</span></div>
+</div></div></div>
+</section>
+<section id="section-6">
+<div class="page" id="page-27" data-page="27"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 26 · Triple decrement, UDD single tables</div>
+    <h2 class="s-title">1000 · ₀.₇₅q⁽¹⁾ₓ</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>26. Diberikan hal berikut untuk sebuah tabel penyusutan tiga (<i>triple-decrement table</i>):<br>(i) <i>μ</i><sup>(1)</sup><sub><i>x</i>+0,75</sub> = 4/197<br>(ii) <i>q</i>′<sub><i>x</i></sub><sup>(2)</sup> = 0,01<br>(iii) <i>q</i>′<sub><i>x</i></sub><sup>(3)</sup> = 0,015<br>(iv) Setiap penyusutan terdistribusi seragam (<i>uniform</i>) di setiap tahun usia dalam tabel penyusutan tunggal (<i>single decrement table</i>) masing-masing.<br>Hitunglah 1000 <sub>0,75</sub><i>q</i><sub><i>x</i></sub><sup>(1)</sup>.<div class="opts"><span><b>a.</b>14,58</span><span><b>b.</b>14,62</span><span><b>c.</b>14,78</span><span><b>d.</b>14,86</span><span><b>e.</b>15,00</span></div></div>
+    <p class="en"><b>In English.</b> With UDD in each single-decrement table, find 1,000 times the probability of leaving by decrement 1 within 0.75 years.</p>
+    <h3><span class="no">1</span>Recover q′⁽¹⁾ from the force (UDD in the single table)</h3><div class="eq"><i>μ</i><sup>(1)</sup><sub><i>x</i>+0.75</sub> = <span class="frac"><span><i>q</i>′<sup>(1)</sup></span><span>1 − 0.75<i>q</i>′<sup>(1)</sup></span></span> = <span class="frac"><span>4</span><span>197</span></span> &nbsp;⇒&nbsp; <i>q</i>′<sup>(1)</sup> = 0.02</div><h3><span class="no">2</span>Integrate the decrement-1 density across the other survivals</h3><div class="eq"><sub>0.75</sub><i>q</i><sub><i>x</i></sub><sup>(1)</sup> = ∫<sub>0</sub><sup>0.75</sup> <i>q</i>′<sup>(1)</sup> (1 − 0.01<i>t</i>)(1 − 0.015<i>t</i>) d<i>t</i></div><div class="eq sm">∫<sub>0</sub><sup>0.75</sup> (1 − 0.025<i>t</i> + 0.00015<i>t</i><sup>2</sup>) d<i>t</i> = 0.75 − 0.0125(0.5625) + 0.00005(0.421875)</div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>q′⁽¹⁾</td><td>(4/197) / (1 + 0.75 × 4/197)</td><td class="n">0.02</td></tr><tr><td class="s">2</td><td>Integral</td><td>0.75 − 0.0070313 + 0.0000211</td><td class="n">0.742990</td></tr><tr class="res"><td class="s">3</td><td>1000 × ₀.₇₅q⁽¹⁾</td><td>1000 × 0.02 × 0.742990</td><td class="n">14.86</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">d</span>≈ 14.86</span></div><div class="opts"><span><b>a.</b>14,58</span><span><b>b.</b>14,62</span><span><b>c.</b>14,78</span><span class="pick"><b>d.</b>14,86 ✓</span><span><b>e.</b>15,00</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>UDD in the <b>single</b> tables means each <b>ₜp′ is linear</b>; multiply the other two survivals into the decrement-1 density. Result: <b>14.86</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q26</b>Triple decrement, UDD single tables</span><span>Page 27 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-28" data-page="28"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 27 · Temporary annuity variance</div>
+    <h2 class="s-title">SD of a 3-year increasing annuity</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>27. Misalkan <i>Y</i> adalah peubah acak nilai sekarang untuk suatu anuitas hidup sementara tiga tahun khusus pada (<i>x</i>). Diketahui:<br>(i) Anuitas hidup tersebut membayar 3 + <i>k</i> pada waktu <i>k</i>, untuk <i>k</i> = 0, 1, dan 2.<br>(ii) <i>v</i> = 0,95<br>(iii) <i>p<sub>x</sub></i> = 0,9; <i>p</i><sub><i>x</i>+1</sub> = 0,85; <i>p</i><sub><i>x</i>+2</sub> = 0,6<br>Hitunglah simpangan baku (standar deviasi) dari <i>Y</i>.<div class="opts"><span><b>a.</b>1,95</span><span><b>b.</b>2,15</span><span><b>c.</b>2,45</span><span><b>d.</b>2,75</span><span><b>e.</b>3,05</span></div></div>
+    <p class="en"><b>In English.</b> Payments of 3, 4, 5 at times 0, 1, 2 while (x) is alive. Find the standard deviation of the present value.</p>
+    <h3><span class="no">1</span>Enumerate the outcomes</h3><table class="t"><tr><th>Outcome</th><th>Probability</th><th style="text-align:right">Y</th></tr><tr><td>Die in year 1</td><td>q<sub>x</sub> = 0.1</td><td class="n">3</td></tr><tr><td>Die in year 2</td><td>p<sub>x</sub> q<sub>x+1</sub> = 0.135</td><td class="n">3 + 4(0.95) = 6.8</td></tr><tr><td>Alive at time 2</td><td>p<sub>x</sub> p<sub>x+1</sub> = 0.765</td><td class="n">6.8 + 5(0.9025) = 11.3125</td></tr></table><p class="small muted"><span class="m"><i>p</i><sub><i>x</i>+2</sub></span> = 0.6 is not needed: the last payment is at time 2.</p><h3><span class="no">2</span>Moments</h3><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>E[Y]</td><td>0.1(3) + 0.135(6.8) + 0.765(11.3125)</td><td class="n">9.8721</td></tr><tr><td class="s">2</td><td>E[Y²]</td><td>0.1(9) + 0.135(46.24) + 0.765(127.9727)</td><td class="n">105.0415</td></tr><tr><td class="s">3</td><td>Var(Y)</td><td>105.0415 − 9.8721²</td><td class="n">7.5839</td></tr><tr class="res"><td class="s">4</td><td>SD(Y)</td><td>√7.5839</td><td class="n">2.754</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">d</span>SD ≈ 2.754</span></div><div class="opts"><span><b>a.</b>1,95</span><span><b>b.</b>2,15</span><span><b>c.</b>2,45</span><span class="pick"><b>d.</b>2,75 ✓</span><span><b>e.</b>3,05</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>A short annuity has only <b>three outcomes</b>; compute E[Y] and E[Y²] directly. The final p (0.6) is a <b>distractor</b>. Result: <b>2.754 ≈ 2,75</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q27</b>Temporary annuity variance</span><span>Page 28 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-29" data-page="29"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 28 · Piecewise force of mortality</div>
+    <h2 class="s-title">₂₀q₄₀</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>28. Diketahui: <i>μ<sub>x</sub></i> = 0,03, jika 40 ≤ <i>x</i> &lt; 55; <i>μ<sub>x</sub></i> = 0,04 + 0,002(<i>x</i> − 55)<sup>2</sup>, jika 55 ≤ <i>x</i> &lt; 65.<br>Tentukanlah nilai dari <sub>20</sub><i>q</i><sub>40</sub><div class="opts"><span><b>a.</b>0,42</span><span><b>b.</b>0,47</span><span><b>c.</b>0,52</span><span><b>d.</b>0,57</span><span><b>e.</b>0,62</span></div></div>
+    <p class="en"><b>In English.</b> Find the probability that (40) dies within 20 years under a piecewise force of mortality.</p>
+    <h3><span class="no">1</span>Cumulative force from 40 to 60</h3><div class="eq">∫<sub>40</sub><sup>60</sup> <i>μ</i><sub><i>x</i></sub> d<i>x</i> = ∫<sub>40</sub><sup>55</sup> 0.03 d<i>x</i> + ∫<sub>55</sub><sup>60</sup> [0.04 + 0.002(<i>x</i> − 55)<sup>2</sup>] d<i>x</i></div><div class="eq">= 0.45 + [0.04(5) + 0.002 · 5<sup>3</sup>/3] = 0.45 + 0.28333</div><h3><span class="no">2</span>Convert to a probability</h3><div class="eq"><sub>20</sub><i>q</i><sub>40</sub> = 1 − <i>e</i><sup>−0.73333</sup></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Ages 40–55</td><td>0.03 × 15</td><td class="n">0.45</td></tr><tr><td class="s">2</td><td>Ages 55–60</td><td>0.2 + 0.002 × 125/3</td><td class="n">0.28333</td></tr><tr><td class="s">3</td><td>Total</td><td>0.45 + 0.28333</td><td class="n">0.73333</td></tr><tr class="res"><td class="s">4</td><td>₂₀q₄₀</td><td>1 − e<sup>−0.73333</sup></td><td class="n">0.5197</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>₂₀q₄₀ ≈ 0.520</span></div><div class="opts"><span><b>a.</b>0,42</span><span><b>b.</b>0,47</span><span class="pick"><b>c.</b>0,52 ✓</span><span><b>d.</b>0,57</span><span><b>e.</b>0,62</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div><b>ₙq = 1 − exp(−∫μ)</b>; split the integral where the formula changes, at <b>55</b>. Result: <b>0.520 ≈ 0,52</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q28</b>Piecewise force of mortality</span><span>Page 29 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-30" data-page="30"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 29 · Asset share and withdrawals</div>
+    <h2 class="s-title">Withdrawal probability, year 1</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>29. Untuk asuransi <i>fully discrete</i> sebesar 1.000 pada (x):<br>(i) Kematian dan pengunduran diri (<i>withdrawal</i>) adalah satu-satunya penyusutan.<br>(ii) Biaya (<i>expenses</i>) pada tahun 1, dibayarkan pada awal tahun, adalah 50% dari premi kontrak (<i>contract premium</i>).<br>(iii) Biaya penyerahan (<i>surrender charge</i>) pada tahun 1 adalah 60% dari cadangan manfaat pada akhir tahun polis tersebut.<br>(iv) <i>i</i> = 0,1<br>(v) Cadangan manfaat pada akhir tahun 1 adalah 36.<br>(vi) <i>Asset share</i> pada akhir tahun 1 adalah 18.<br>(vii) Selisih antara premi manfaat (<i>benefit premium</i>) dan premi kontrak (<i>contract premium</i>) adalah 9,36.<br>(viii) Pada tahun 1, peluang pengunduran diri adalah 10 kali peluang kematian.<br>Carilah peluang pengunduran diri pada tahun 1.<div class="opts"><span><b>a.</b>0,05</span><span><b>b.</b>0,06</span><span><b>c.</b>0,07</span><span><b>d.</b>0,08</span><span><b>e.</b>0,09</span></div></div>
+    <p class="en"><b>In English.</b> Find the year-1 withdrawal probability from the asset share, the benefit reserve and the premium difference.</p>
+    <h3><span class="no">1</span>Cash value on withdrawal</h3><div class="eq">CV = 36 − 0.6 × 36 = 14.4, &nbsp; <i>q</i><sup>(w)</sup> = 10<i>q</i>, &nbsp; <i>q</i> = <i>q</i><sup>(d)</sup></div><h3><span class="no">2</span>Benefit reserve recursion (benefit premium P)</h3><div class="eq">1.1<i>P</i> = 1,000<i>q</i> + 14.4(10<i>q</i>) + (1 − 11<i>q</i>)(36) = 36 + 748<i>q</i></div><h3><span class="no">3</span>Asset share recursion (contract premium G = P + 9.36)</h3><div class="eq">1.1(0.5<i>G</i>) = 1,000<i>q</i> + 144<i>q</i> + (1 − 11<i>q</i>)(18) = 18 + 946<i>q</i></div><h3><span class="no">4</span>Solve</h3><div class="eq">0.55<i>P</i> + 5.148 = 18 + 946<i>q</i> ⇒ 1.1<i>P</i> = 25.704 + 1,892<i>q</i> = 36 + 748<i>q</i></div><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>1,144q</td><td>36 − 25.704</td><td class="n">10.296</td></tr><tr><td class="s">2</td><td>q (death)</td><td>10.296 / 1,144</td><td class="n">0.009</td></tr><tr class="res"><td class="s">3</td><td>q<sup>(w)</sup></td><td>10 × 0.009</td><td class="n">0.09</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">e</span>q⁽ʷ⁾ = 0.09</span></div><div class="opts"><span><b>a.</b>0,05</span><span><b>b.</b>0,06</span><span><b>c.</b>0,07</span><span><b>d.</b>0,08</span><span class="pick"><b>e.</b>0,09 ✓</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Write <b>two recursions</b>, benefit reserve with P and asset share with G, using the same decrements and cash value; the premium difference 9.36 links them. Result: <b>0.09</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q29</b>Asset share and withdrawals</span><span>Page 30 of 31</span></div>
+</div></div></div>
+<div class="page" id="page-31" data-page="31"><div class="page-frame"><div class="page-canvas">
+  <div class="p-head"><span>Actuarial Studies · TA3 Matematika Aktuaria</span><span>Periode Agustus 2026</span></div>
+  <div class="p-body"><div class="fit">
+    <div class="eyebrow">Question 30 · Joint life, first death</div>
+    <h2 class="s-title">First death in year 3</h2>
+    <div class="s-rule"></div>
+    <div class="cell tint src"><div class="lbl">Original question</div>30. Diberikan informasi mengenai tabel mortalitas sebagai berikut:<table class="mini"><tr><th>x</th><th>q<sub>x</sub> (Laki-laki)</th><th>q<sub>x</sub> (Perempuan)</th></tr><tr><td>60</td><td>0,09</td><td>0,06</td></tr><tr><td>61</td><td>0,11</td><td>0,08</td></tr><tr><td>62</td><td>0,13</td><td>0,10</td></tr><tr><td>63</td><td>0,15</td><td>0,12</td></tr><tr><td>64</td><td>0,17</td><td>0,14</td></tr></table>Kelvin dan Christie adalah pasangan suami istri. Kelvin (laki-laki) berusia 62 tahun. Christie (perempuan) berusia 60 tahun. <i>Future lifetime</i> mereka diasumsikan saling independen. Tentukanlah probabilitas bahwa kematian pertama (<i>first death</i>) untuk pasangan tersebut akan terjadi pada tahun ketiga terhitung sejak saat ini. Bulatkan jawaban hingga tiga desimal.<div class="opts"><span><b>a.</b>0,142</span><span><b>b.</b>0,152</span><span><b>c.</b>0,162</span><span><b>d.</b>0,172</span><span><b>e.</b>0,182</span></div></div>
+    <p class="en"><b>In English.</b> Kelvin (male, 62) and Christie (female, 60): find the probability that the first death happens in the third year.</p>
+    <h3><span class="no">1</span>First death in year 3 = both alive at 2, not both alive at 3</h3><div class="eq sm"><sub>2|</sub><i>q</i><sub>62:60</sub> = <sub>2</sub><i>p</i><sub>62:60</sub> − <sub>3</sub><i>p</i><sub>62:60</sub> = <sub>2</sub><i>p</i><sub>62</sub><sup>m</sup> <sub>2</sub><i>p</i><sub>60</sub><sup>f</sup> ( 1 − <i>p</i><sub>64</sub><sup>m</sup><i>p</i><sub>62</sub><sup>f</sup> )</div><h3><span class="no">2</span>Read the right ages from each column</h3><ul class="b"><li>Kelvin, male column: q₆₂ = 0.13, q₆₃ = 0.15, q₆₄ = 0.17.</li><li>Christie, female column: q₆₀ = 0.06, q₆₁ = 0.08, q₆₂ = 0.10.</li></ul><table class="t"><tr><th></th><th>Step</th><th>Working</th><th style="text-align:right">Value</th></tr><tr><td class="s">1</td><td>Kelvin ₂p₆₂</td><td>0.87 × 0.85</td><td class="n">0.7395</td></tr><tr><td class="s">2</td><td>Christie ₂p₆₀</td><td>0.94 × 0.92</td><td class="n">0.8648</td></tr><tr><td class="s">3</td><td>₂p joint</td><td>0.7395 × 0.8648</td><td class="n">0.63952</td></tr><tr><td class="s">4</td><td>Both survive year 3</td><td>0.83 × 0.90</td><td class="n">0.747</td></tr><tr class="res"><td class="s">5</td><td>Probability</td><td>0.63952 × (1 − 0.747)</td><td class="n">0.1618</td></tr></table>
+    <div class="cell ans"><div class="lbl">Answer</div><div class="ansrow"><span class="big"><span class="letter">c</span>≈ 0.162</span></div><div class="opts"><span><b>a.</b>0,142</span><span><b>b.</b>0,152</span><span class="pick"><b>c.</b>0,162 ✓</span><span><b>d.</b>0,172</span><span><b>e.</b>0,182</span></div></div>
+    <div class="cell tint"><div class="lbl">In a Nutshell</div>Deferred joint-life probability: <b>₂pₓᵧ × (1 − pₓ₊₂ pᵧ₊₂)</b>, using the <b>male column for Kelvin</b> and the <b>female column for Christie</b>. Result: <b>0.162</b>.</div>
+  </div></div>
+  <div class="p-foot"><span><b>Q30</b>Joint life, first death</span><span>Page 31 of 31</span></div>
 </div></div></div>
 </section>
 </main>
@@ -542,7 +720,7 @@ body.present .page.cur .page-frame{box-shadow:0 0 0 1px var(--line)}
     groups.forEach(function(g){ g.classList.toggle('on', n>=+g.dataset.first && n<=+g.dataset.last); });
     tabs.forEach(function(t){ t.classList.toggle('on', n>=+t.dataset.first && n<=+t.dataset.last); });
     pages.forEach(function(p){ p.classList.toggle('cur', +p.dataset.page===n); });
-    pos.textContent='Page '+n+' of '+N;
+    pos.textContent=(n===1?'Key':'Q'+(n-1))+' · Page '+n+' of '+N;
     prev.disabled=(n<=1); next.disabled=(n>=N);
     var on=document.querySelector('a.tn-c.on'), box=document.getElementById('tn-s');
     if(on && box){ var l=on.offsetLeft-box.offsetLeft; if(l<box.scrollLeft||l>box.scrollLeft+box.clientWidth-40) box.scrollLeft=l-80; }
